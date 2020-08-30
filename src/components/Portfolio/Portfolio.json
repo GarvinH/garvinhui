@@ -1,0 +1,46 @@
+[
+  {
+    "title": "This Website",
+    "img": "assets/garvinhui-website.png",
+    "content": {
+      "tech": ["ReactJS - JavaScript", "React Bootstrap", "React Router"],
+      "github": "https://github.com/GarvinH/garvinhui"
+    }
+  },
+  {
+    "title": "Memo.io",
+    "img": "assets/memo-io.png",
+    "content": {
+      "desc": "Memo.io is a web app for writing notes online. Creating an account allows for your notes to be stored. These notes are encrypted to ensure privacy.",
+      "tech": [
+        "ReactJS - JavaScript",
+        "ReactRnD",
+        "Focus Trap React",
+        "Redux",
+        "Heroku",
+        "MongoDB",
+        "PassportJS",
+        "aes256"
+      ],
+      "website": "https://memo-io.herokuapp.com/",
+      "github": "https://github.com/GarvinH/Memo-io"
+    }
+  },
+  {
+    "title": "Forecast.io",
+    "img": "assets/forecast-io.png",
+    "content": {
+      "desc": "Forecast.io is a web app for determining the weather. It uses the OpenWeatherAPI to provide the data.",
+      "tech": [
+        "ReactJS - TypeScript",
+        "React Bootstrap",
+        "Axios",
+        "React Router",
+        "Heroku",
+        "OpenWeatherAPI"
+      ],
+      "website": "https://forecast-io.herokuapp.com/#/forecast",
+      "github": "https://github.com/GarvinH/ForecastIO"
+    }
+  }
+]
