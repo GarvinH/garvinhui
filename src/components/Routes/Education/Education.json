@@ -1,0 +1,18 @@
+[
+  {
+    "institution": "University of Ottawa",
+    "title": "Bachelor of Applied Science, Software Engineering",
+    "notes": "cGPA: 9.7 / 10",
+    "desc": {
+      "title": "Relevant courses:",
+      "points": [
+        "Introduction to Computing I - ITI 1120 (Python)",
+        "Professional Communication and Responsibility - SEG 2900",
+        "Digital Systems I - ITI 1100",
+        "Introduction to Computing II - ITI 1121 (Java)",
+        "Discrete Mathematics for Computing - MAT 1348"
+      ]
+    },
+    "duration": "September 2019 - December 2023"
+  }
+]

@@ -17,6 +17,9 @@ const NavBar = () => (
         <LinkContainer to="/education">
           <Nav.Link>Education</Nav.Link>
         </LinkContainer>
+        <LinkContainer to="/interests">
+          <Nav.Link>Interests</Nav.Link>
+        </LinkContainer>
       </Nav>
     </Navbar.Collapse>
   </Navbar>
