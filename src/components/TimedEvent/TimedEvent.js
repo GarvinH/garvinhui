@@ -9,14 +9,14 @@ const TimedEvent = ({ institution, title, notes, descs, duration, key }) => (
     <Row>
       <Col md={9} align="left">
         <h2>{title}</h2>
-        {notes && <p>{notes}</p>}
+        {notes && <p dangerouslySetInnerHTML={{__html: notes}}></p>}
         {descs &&
           descs.map((desc) => (
             <Fragment>
               <p>{desc.title}</p>
               <ul>
                 {desc.points.map((point) => (
-                  <li>{point}</li>
+                  <li dangerouslySetInnerHTML={{__html: point}} />
                 ))}
               </ul>
             </Fragment>

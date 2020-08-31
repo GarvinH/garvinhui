@@ -26,3 +26,7 @@ code {
 .heading {
   font-size: 3.5rem
 }
+
+mark {
+  background-color: #faed27 !important;
+}
