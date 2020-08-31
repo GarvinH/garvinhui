@@ -14,7 +14,7 @@ const Education = () => (
         institution={education.institution}
         notes={education.notes}
         title={education.title}
-        desc={education.desc}
+        descs={education.descs}
         duration={education.duration}
       />
     ))}

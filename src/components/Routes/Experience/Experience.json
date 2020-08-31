@@ -1,0 +1,32 @@
+{
+  "required": [
+    {
+      "institution": "Treasury Board of Canada Secretariat",
+      "title": "Web Developer (Co-op)",
+      "notes": "ReactJS, JavaScript, NodeJS, Jest, MongoDB, Mongoose, Git, Bash, HTML, (S)CSS, JSON, YAML",
+      "descs": [
+        {
+          "title": "Achievements:",
+          "points": [
+            "Built a MongoDB extraction system (and integration testing) which converted collections of user tickets into CSV files, allowing for easier analysis by the team.",
+            "Moved survey from external link to in-app. While doing so, improved survey popup by adjusting to user statistics from google analytics.",
+            "Added notification banner to website for service outages; operates using google buckets which removes the need to redeploy website."
+          ]
+        }
+      ],
+      "duration": "July 2020 - August 2020"
+    }
+  ],
+  "optional": [
+    {
+      "institution": "Axiom Group Inc.",
+      "title": "Machine Operator",
+      "duration": "June 2019 - August 2019"
+    },
+    {
+      "institution": "Wendy's",
+      "title": "Customer Service Representative",
+      "duration": "December 2017 - July 2019"
+    }
+  ]
+}
