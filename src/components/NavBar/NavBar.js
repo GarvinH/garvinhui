@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
-import { LinkContainer } from "react-router-bootstrap"
+import { LinkContainer } from "react-router-bootstrap";
 
 const NavBar = () => (
   <Navbar fixed="top" bg="dark" variant="dark" expand="lg">
@@ -9,18 +9,17 @@ const NavBar = () => (
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="ml-auto">
         <LinkContainer to="/" exact>
-            <Nav.Link>
-                Home
-            </Nav.Link>
+          <Nav.Link>Home</Nav.Link>
         </LinkContainer>
         <LinkContainer to="/portfolio">
-            <Nav.Link>
-                Portfolio
-            </Nav.Link>
+          <Nav.Link>Portfolio</Nav.Link>
+        </LinkContainer>
+        <LinkContainer to="/education">
+          <Nav.Link>Education</Nav.Link>
         </LinkContainer>
       </Nav>
     </Navbar.Collapse>
   </Navbar>
 );
 
-export default NavBar
+export default NavBar;

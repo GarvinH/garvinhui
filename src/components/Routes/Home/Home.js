@@ -1,9 +1,9 @@
 import React from "react";
 import classes from "./Home.module.css";
 import { Jumbotron, Container } from "react-bootstrap";
-import portrait from "../../assets/garvinhui.jpg";
-import github from "../../assets/github-logo.png";
-import linkedin from "../../assets/linkedin-logo.png"
+import portrait from "../../../assets/garvinhui.jpg";
+import github from "../../../assets/github-logo.png";
+import linkedin from "../../../assets/linkedin-logo.png"
 import Typed from "typed.js";
 
 class Home extends React.Component {
@@ -26,12 +26,11 @@ class Home extends React.Component {
 
   render() {
     return (
-      <Jumbotron style={{ height: "100%", margin: 0 }}>
+      <Jumbotron>
         <Container className={classes.home}>
           <img
             style={{
-              width: "35%",
-              height: "50%",
+              width: "12rem",
               borderRadius: "50%",
               marginTop: "5rem",
             }}
