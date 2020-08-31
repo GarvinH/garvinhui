@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "306c7069c4c18613164997448d855cdf",
+    "revision": "488427504a1cd68a8f1d3465e1cec3d4",
     "url": "/garvinhui/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/garvinhui/static/css/2.f3cffc9e.chunk.css"
   },
   {
-    "revision": "7b0d8b7fe2840ab8e39c",
+    "revision": "731f8ef83314d70fa99c",
     "url": "/garvinhui/static/css/main.00867ad2.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/garvinhui/static/js/2.c01ddfb8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7b0d8b7fe2840ab8e39c",
-    "url": "/garvinhui/static/js/main.c0523a76.chunk.js"
+    "revision": "731f8ef83314d70fa99c",
+    "url": "/garvinhui/static/js/main.b45d0c54.chunk.js"
   },
   {
     "revision": "9f2fe0bc7700003fd12f",
