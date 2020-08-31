@@ -30,3 +30,13 @@ code {
 mark {
   background-color: #faed27 !important;
 }
+
+@media (max-width: 1017px) {
+  .card {
+    margin-bottom: 3rem;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+}
