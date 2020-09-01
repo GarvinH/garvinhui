@@ -3,7 +3,7 @@ import classes from "./Home.module.css";
 import { Jumbotron, Container } from "react-bootstrap";
 import portrait from "../../../assets/garvinhui.jpg";
 import github from "../../../assets/github-logo.png";
-import linkedin from "../../../assets/linkedin-logo.png"
+import linkedin from "../../../assets/linkedin-logo.png";
 import Typed from "typed.js";
 
 class Home extends React.Component {
@@ -44,12 +44,20 @@ class Home extends React.Component {
           <h5>(647)-898-8793</h5>
           <h5>garvinhui@hotmail.com</h5>
           <button className={classes.social}>
-            <a href="https://github.com/GarvinH">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/GarvinH"
+            >
               <img src={github} alt="github link" />
             </a>
           </button>
           <button className={classes.social}>
-            <a href="https://www.linkedin.com/in/garvin-hui-1b0858197/">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/garvinhui/"
+            >
               <img src={linkedin} alt="linkedin link" />
             </a>
           </button>
