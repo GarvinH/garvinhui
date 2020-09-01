@@ -13,8 +13,8 @@ const Interests = () => (
           Japanese for about a year. I like it!
         </li>
         <li>
-          I'm currently working on a TD game using Godot! I got to play with flow fields and
-          multithreading.
+          I'm currently working on a TD game using Godot! I got to play with
+          flow fields and multithreading.
         </li>
         <li>I'm not good at it, but I like to fool around with music.</li>
       </ul>
@@ -30,6 +30,15 @@ const Interests = () => (
           Occasionally, I'll be looking at XSS and and learning how to play
           capture the flags.
         </li>
+      </ul>
+      <p>Other tech related stuff I've done:</p>
+      <ul>
+        <li>Participated in cuHacking 2020</li>
+        <li>
+          Attended Canadian University Software Engineering Conference (CUSEC)
+          2020
+        </li>
+        <li>Contributed to open source</li>
       </ul>
     </Container>
   </Jumbotron>
