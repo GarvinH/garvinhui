@@ -2,6 +2,12 @@
   "required": [
     {
       "institution": "Treasury Board of Canada Secretariat",
+      "title": "Web Developer (Part time)",
+      "duration": "September 2020 - Present",
+      "notes": "<strong>ReactJS</strong>, <strong>JavaScript</strong>, <strong>Git</strong>, <strong>Bash</strong>, <strong>HTML</strong>, <strong>(S)CSS</strong>, <strong>YAML</strong>"
+    },
+    {
+      "institution": "Treasury Board of Canada Secretariat",
       "title": "Web Developer (Co-op)",
       "notes": "<strong>ReactJS</strong>, <strong>JavaScript</strong>, <strong>NodeJS</strong>, <strong>Jest</strong>, <strong>MongoDB</strong>, <strong>Mongoose</strong>, <strong>Git</strong>, <strong>Bash</strong>, <strong>HTML</strong>, <strong>(S)CSS</strong>, <strong>JSON</strong>, <strong>YAML</strong>",
       "descs": [
