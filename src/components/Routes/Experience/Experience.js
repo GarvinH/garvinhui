@@ -36,7 +36,7 @@ const Experience = () => (
     <Accordion>
       <Card>
         <Card.Header>
-          <CustomToggle eventKey="0">Irrelevant Experience</CustomToggle>
+          <CustomToggle eventKey="0">Non-Technical Experience</CustomToggle>
         </Card.Header>
         <Accordion.Collapse eventKey="0" style={{ backgroundColor: "#e9ecef" }}>
           <Fragment>

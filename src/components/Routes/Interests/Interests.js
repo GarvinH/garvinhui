@@ -9,8 +9,8 @@ const Interests = () => (
     <Container style={{ margin: 0, padding: 0 }} align="left">
       <ul>
         <li>
-          日本語を一年ぐらい勉強しています。好きです。— I've been studying
-          Japanese for about a year. I like it!
+          日本語を一年半ぐらい勉強しています。好きです。— I've been studying
+          Japanese for about a year and a half. I like it!
         </li>
         <li>
           I'm currently working on a TD game using Godot! I got to play with

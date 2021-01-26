@@ -2,7 +2,7 @@
   {
     "institution": "University of Ottawa",
     "title": "Bachelor of Applied Science, Software Engineering",
-    "notes": "<mark>cGPA: 9.7 / 10</mark>",
+    "notes": "<mark>cGPA: 9.8 / 10</mark>",
     "descs": [
       {
         "title": "Relevant courses:",
@@ -11,7 +11,10 @@
           "Professional Communication and Responsibility - SEG 2900",
           "Digital Systems I - ITI 1100",
           "Introduction to Computing II - ITI 1121 (<strong>Java</strong>)",
-          "Discrete Mathematics for Computing - MAT 1348"
+          "Discrete Mathematics for Computing - MAT 1348",
+          "Data Structures and Algorithms - CSI 2110 (<strong>Java</strong>)",
+          "Computer Architecture I - CEG 2136",
+          "Introduction to Software Engineering - SEG 2105 (<strong>Java</strong>)"
         ]
       }
     ],

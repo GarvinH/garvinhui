@@ -2,8 +2,14 @@
   "required": [
     {
       "institution": "Treasury Board of Canada Secretariat",
+      "title": "Web Developer (Co-op)",
+      "duration": "January 2021 - Present",
+      "notes": "<strong>Django</strong>, <strong>Python</strong>, <strong>Git</strong>, <strong>Pytest</strong>, <strong>GraphQL</strong>, <strong>HTML</strong>, <strong>CSS</strong>, <strong>YAML</strong>"
+    },
+    {
+      "institution": "Treasury Board of Canada Secretariat",
       "title": "Web Developer (Part time)",
-      "duration": "September 2020 - Present",
+      "duration": "September 2020 - December 2020",
       "notes": "<strong>ReactJS</strong>, <strong>JavaScript</strong>, <strong>Git</strong>, <strong>Bash</strong>, <strong>HTML</strong>, <strong>(S)CSS</strong>, <strong>YAML</strong>"
     },
     {
