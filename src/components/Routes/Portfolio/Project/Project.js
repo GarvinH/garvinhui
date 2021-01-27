@@ -46,7 +46,7 @@ const Project = ({ img, title, content }) => (
       <Card.Body style={{ borderTop: "1px black solid" }}>
         <Card.Title>
           <OverlayTrigger
-            trigger="click"
+            trigger="focus"
             overlay={<Details content={content} />}
             placement="bottom"
           >
