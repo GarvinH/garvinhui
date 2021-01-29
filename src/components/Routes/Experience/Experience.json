@@ -10,7 +10,16 @@
       "institution": "Treasury Board of Canada Secretariat",
       "title": "Web Developer (Part time)",
       "duration": "September 2020 - December 2020",
-      "notes": "<strong>ReactJS</strong>, <strong>JavaScript</strong>, <strong>Git</strong>, <strong>Bash</strong>, <strong>HTML</strong>, <strong>(S)CSS</strong>, <strong>YAML</strong>"
+      "notes": "<strong>ReactJS</strong>, <strong>JavaScript</strong>, <strong>Git</strong>, <strong>Bash</strong>, <strong>HTML</strong>, <strong>(S)CSS</strong>, <strong>YAML</strong>",
+      "descs": [
+        {
+          "title": "",
+          "points": [
+            "Improved prominence of an information banner",
+            "Assisted in updating dependencies."
+          ]
+        }
+      ]
     },
     {
       "institution": "Treasury Board of Canada Secretariat",
