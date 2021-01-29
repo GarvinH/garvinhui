@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import { Popover, OverlayTrigger, Card, Col, Button } from "react-bootstrap";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 
 const Details = React.forwardRef(
   ({ popper, content, show: _, ...props }, ref) => {
@@ -42,7 +44,9 @@ const Details = React.forwardRef(
 const Project = ({ img, title, content }) => (
   <Col align="center">
     <Card style={{ width: "18rem" }}>
-      <Card.Img variant="top" src={img} />
+      <Zoom>
+        <Card.Img variant="top" src={img.default} />
+      </Zoom>
       <Card.Body style={{ borderTop: "1px black solid" }}>
         <Card.Title>
           <OverlayTrigger
