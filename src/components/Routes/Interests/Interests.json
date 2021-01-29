@@ -1,0 +1,27 @@
+[
+  {
+    "header": "",
+    "points": [
+      "日本語を一年半ぐらい勉強しています。好きです。— I've been studying Japanese for about a year and a half. I like it!",
+      "I'm currently working on a TD game using Godot! I got to play with flow fields and multithreading.",
+      "I'm not good at it, but I like to fool around with music."
+    ]
+  },
+  {
+    "header": "When it's not the three above, these are usually next:",
+    "points": [
+      "Udemy has lots of tech content; sometimes I'll spend my time learning there.",
+      "Occasionally, I'll be looking at XSS and and learning how to play capture the flags.",
+      "I'm not good at it, but I like to fool around with music."
+    ]
+  },
+  {
+    "header": "Other tech-related stuff I've done:",
+    "points": [
+      "Participated in cuHacking 2020.",
+      "Attended Canadian University Software Engineering Conference (CUSEC) 2020.",
+      "Contributed to open source.",
+      "Helped a friend program a custom PCB using ATmega32u4 microcontroller."
+    ]
+  }
+]

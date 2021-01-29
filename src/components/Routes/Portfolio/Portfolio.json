@@ -64,6 +64,20 @@
           ],
           "github": "https://github.com/GarvinH/smart-annotation"
         }
+      },
+      {
+        "title": "Novigrad",
+        "img": "assets/novigrad.png",
+        "imgStyle": {"maxHeight": "10rem", "width": "auto", "margin": "auto"},
+        "content": {
+          "desc": "eAnnotate is a local note-taking app built using ElectronJS. This was built for course GNG 2101.",
+          "tech": [
+            "ReactJS",
+            "React Bootstrap",
+            "ElectronJS"
+          ],
+          "github": "https://github.com/GarvinH/smart-annotation"
+        }
       }
     ]
   }

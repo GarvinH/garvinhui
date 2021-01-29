@@ -15,6 +15,7 @@ const Portfolio = () => (
           {project_category.projects.map((project) => (
             <Project
               img={require(`../../../${project.img}`)}
+              imgStyle={project.imgStyle}
               title={project.title}
               content={project.content}
             />
