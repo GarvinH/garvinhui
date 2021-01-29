@@ -57,26 +57,18 @@
         "img": "assets/eAnnotate.png",
         "content": {
           "desc": "eAnnotate is a local note-taking app built using ElectronJS. This was built for course GNG 2101.",
-          "tech": [
-            "ReactJS",
-            "React Bootstrap",
-            "ElectronJS"
-          ],
+          "tech": ["ReactJS", "React Bootstrap", "ElectronJS"],
           "github": "https://github.com/GarvinH/smart-annotation"
         }
       },
       {
-        "title": "Novigrad",
+        "title": "Service Novigrad",
         "img": "assets/novigrad.png",
-        "imgStyle": {"maxHeight": "10rem", "width": "auto", "margin": "auto"},
+        "imgStyle": { "maxHeight": "10rem", "width": "auto", "margin": "auto" },
         "content": {
-          "desc": "eAnnotate is a local note-taking app built using ElectronJS. This was built for course GNG 2101.",
-          "tech": [
-            "ReactJS",
-            "React Bootstrap",
-            "ElectronJS"
-          ],
-          "github": "https://github.com/GarvinH/smart-annotation"
+          "desc": "Service Novigrad is an android application used by a fictional province (a similar but simplified version of Service Ontario). This was built for SEG 2105.",
+          "tech": ["Android", "Java", "Firebase"],
+          "github": "https://github.com/SEG2105-uottawa/Service-Novigrad"
         }
       }
     ]
