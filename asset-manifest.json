@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/garvinhui/static/css/main.9b8e7dda.chunk.css",
-    "main.js": "/garvinhui/static/js/main.4b5313bf.chunk.js",
-    "main.js.map": "/garvinhui/static/js/main.4b5313bf.chunk.js.map",
-    "runtime-main.js": "/garvinhui/static/js/runtime-main.ef41595d.js",
-    "runtime-main.js.map": "/garvinhui/static/js/runtime-main.ef41595d.js.map",
-    "static/css/2.ad270154.chunk.css": "/garvinhui/static/css/2.ad270154.chunk.css",
-    "static/js/2.cc566c1d.chunk.js": "/garvinhui/static/js/2.cc566c1d.chunk.js",
-    "static/js/2.cc566c1d.chunk.js.map": "/garvinhui/static/js/2.cc566c1d.chunk.js.map",
-    "index.html": "/garvinhui/index.html",
-    "static/css/2.ad270154.chunk.css.map": "/garvinhui/static/css/2.ad270154.chunk.css.map",
-    "static/css/main.9b8e7dda.chunk.css.map": "/garvinhui/static/css/main.9b8e7dda.chunk.css.map",
-    "static/js/2.cc566c1d.chunk.js.LICENSE.txt": "/garvinhui/static/js/2.cc566c1d.chunk.js.LICENSE.txt",
-    "static/media/eAnnotate.png": "/garvinhui/static/media/eAnnotate.6cffbd89.png",
-    "static/media/forecast-io.png": "/garvinhui/static/media/forecast-io.16b07629.png",
-    "static/media/garvinhui-website.png": "/garvinhui/static/media/garvinhui-website.6e1cf1ac.png",
-    "static/media/garvinhui.jpg": "/garvinhui/static/media/garvinhui.f7979070.jpg",
-    "static/media/logo.svg": "/garvinhui/static/media/logo.103b5fa1.svg",
-    "static/media/memo-io.png": "/garvinhui/static/media/memo-io.bedf8d32.png",
-    "static/media/novigrad.png": "/garvinhui/static/media/novigrad.fe6a1cca.png"
+    "main.css": "/static/css/main.9b8e7dda.chunk.css",
+    "main.js": "/static/js/main.3d9955c8.chunk.js",
+    "main.js.map": "/static/js/main.3d9955c8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0c371430.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0c371430.js.map",
+    "static/css/2.ad270154.chunk.css": "/static/css/2.ad270154.chunk.css",
+    "static/js/2.9c1df4b1.chunk.js": "/static/js/2.9c1df4b1.chunk.js",
+    "static/js/2.9c1df4b1.chunk.js.map": "/static/js/2.9c1df4b1.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.ad270154.chunk.css.map": "/static/css/2.ad270154.chunk.css.map",
+    "static/css/main.9b8e7dda.chunk.css.map": "/static/css/main.9b8e7dda.chunk.css.map",
+    "static/js/2.9c1df4b1.chunk.js.LICENSE.txt": "/static/js/2.9c1df4b1.chunk.js.LICENSE.txt",
+    "static/media/eAnnotate.png": "/static/media/eAnnotate.6cffbd89.png",
+    "static/media/forecast-io.png": "/static/media/forecast-io.16b07629.png",
+    "static/media/garvinhui-website.png": "/static/media/garvinhui-website.6e1cf1ac.png",
+    "static/media/garvinhui.jpg": "/static/media/garvinhui.f7979070.jpg",
+    "static/media/logo.svg": "/static/media/logo.103b5fa1.svg",
+    "static/media/memo-io.png": "/static/media/memo-io.bedf8d32.png",
+    "static/media/novigrad.png": "/static/media/novigrad.fe6a1cca.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ef41595d.js",
+    "static/js/runtime-main.0c371430.js",
     "static/css/2.ad270154.chunk.css",
-    "static/js/2.cc566c1d.chunk.js",
+    "static/js/2.9c1df4b1.chunk.js",
     "static/css/main.9b8e7dda.chunk.css",
-    "static/js/main.4b5313bf.chunk.js"
+    "static/js/main.3d9955c8.chunk.js"
   ]
 }
