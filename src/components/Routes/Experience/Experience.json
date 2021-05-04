@@ -2,25 +2,55 @@
   "required": [
     {
       "institution": "Treasury Board of Canada Secretariat",
-      "title": "Web Developer (Co-op & Part-time)",
-      "notes": "<strong>Django</strong>, <strong>Python</strong>, <strong>Pytest</strong>, <strong>GraphQL</strong>, <strong>ReactJS</strong>, <strong>JavaScript</strong>, <strong>NodeJS</strong>, <strong>Jest</strong>, <strong>MongoDB</strong>, <strong>Mongoose</strong>, <strong>Git</strong>, <strong>Bash</strong>, <strong>HTML</strong>, <strong>(S)CSS</strong>, <strong>JSON</strong>, <strong>YAML</strong>",
+      "title": "Web Developer (Co-op)",
+      "notes": "<strong>Django</strong>, <strong>Python</strong>, <strong>Pytest</strong>, <strong>GraphQL</strong>, <strong>ReactJS</strong>, <strong>JavaScript</strong>, <strong>TypeScript</strong>, <strong>Git</strong>, <strong>Bash</strong>, <strong>HTML</strong>, <strong>(S)CSS</strong>, <strong>JSON</strong>, <strong>YAML</strong>",
       "descs": [
         {
           "title": "Achievements:",
           "points": [
-            "Developed on productivity of data analysis through formatting JSON data into CSV",
-            "Improved UX of website by using google analytics",
-            "Increase efficiency of resource usage when showing notification banners"
+            "Improved the maintainability and the UX of a website section that receives over 10,000 uses a year",
+            "Sped up the loading on a sub-application by approximately five-fold",
+            "Optimized SQL-based queries on average by 15-fold"
           ]
         }
       ],
-      "duration": "July 2020 - Present"
+      "duration": "Jan 2021 - Apr 2021"
+    },
+    {
+      "institution": "Treasury Board of Canada Secretariat",
+      "title": "Web Developer (Part-time)",
+      "notes": "<strong>ReactJS</strong>, <strong>JavaScript</strong>, <strong>Git</strong>, <strong>Bash</strong>, <strong>HTML</strong>, <strong>(S)CSS</strong>, <strong>JSON</strong>, <strong>YAML</strong>",
+      "descs": [
+        {
+          "title": "Achievements:",
+          "points": [
+            "Unblocked technological upgrade path by decoupling a major component"
+          ]
+        }
+      ],
+      "duration": "Sept 2020 - Dec 2020"
+    },
+    {
+      "institution": "Treasury Board of Canada Secretariat",
+      "title": "Web Developer (Co-op)",
+      "notes": "<strong>ReactJS</strong>, <strong>JavaScript</strong>, <strong>NodeJS</strong>, <strong>Jest</strong>, <strong>MongoDB</strong>, <strong>Mongoose</strong>, <strong>Git</strong>, <strong>Bash</strong>, <strong>HTML</strong>, <strong>(S)CSS</strong>, <strong>JSON</strong>, <strong>YAML</strong>",
+      "descs": [
+        {
+          "title": "Achievements:",
+          "points": [
+            "Developed a formatting strategy for extracting and converting database data to CSV",
+            "Improved UX of website by using google analytics",
+            "Optimized resource usage when providing live updates"
+          ]
+        }
+      ],
+      "duration": "July 2020 - Aug 2020"
     }
   ],
   "optional": [
     {
       "institution": "Axiom Group Inc.",
-      "title": "Machine Operator",
+      "title": "Assembly Line Worker",
       "duration": "June 2019 - August 2019"
     },
     {

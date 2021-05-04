@@ -11,13 +11,13 @@ class Home extends React.Component {
     const options = {
       strings: [
         "Software Engineering Student",
-        "Japan Enthusiast",
+        "日本が好きな人です (Japan Enthusiast)",
         "Developer",
       ],
       typeSpeed: 40,
       loop: true,
       loopCount: Infinity,
-      backDelay: 1100,
+      backDelay: 2000,
       backSpeed: 30,
     };
 

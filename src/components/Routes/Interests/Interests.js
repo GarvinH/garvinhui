@@ -13,9 +13,10 @@ const Interests = () => (
           <p>{section.header}</p>
           <ul>
             {section.points.map((point) => (
-              <li>{point}</li>
+              <li dangerouslySetInnerHTML={{__html: point}}/>
             ))}
           </ul>
+          <br/>
         </Fragment>
       ))}
     </Container>

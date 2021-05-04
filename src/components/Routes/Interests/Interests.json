@@ -1,18 +1,17 @@
 [
   {
-    "header": "",
+    "header": "General:",
     "points": [
-      "日本語を一年半ぐらい勉強しています。好きです。— I've been studying Japanese for about a year and a half. I like it!",
-      "I'm currently working on a TD game using Godot! I got to play with flow fields and multithreading.",
-      "I'm not good at it, but I like to fool around with music."
+      "日本語を二年ぐらい勉強しています。好きです。— I've been studying Japanese for about 2 years. I like it!",
+      "I'm currently working on a TD game using <strong>Godot</strong>! I got to play with <strong>flow fields</strong> and <strong>multi-threading</strong>.",
+      "Coursera, Udemy, and Youtube have lots of tech content; I'm currently taking a course on <strong>Machine Learning</strong>."
     ]
   },
   {
     "header": "When it's not the three above, these are usually next:",
     "points": [
-      "Udemy has lots of tech content; sometimes I'll spend my time learning there.",
-      "Occasionally, I'll be looking at XSS and and learning how to play capture the flags.",
-      "I'm not good at it, but I like to fool around with music."
+      "Trying to learn music (mainly focusing on the piano right now).",
+      "Learning about Penetration Testing. I've previously played around on HackTheBox."
     ]
   },
   {
@@ -21,7 +20,7 @@
       "Participated in cuHacking 2020.",
       "Attended Canadian University Software Engineering Conference (CUSEC) 2020.",
       "Contributed to open source.",
-      "Helped a friend program a custom keyboard PCB using ATmega32u4 microcontroller."
+      "Helped a friend program a custom keyboard PCB in <strong>C</strong> using ATmega32u4 microcontroller."
     ]
   }
 ]
