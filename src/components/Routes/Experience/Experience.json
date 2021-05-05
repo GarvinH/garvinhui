@@ -3,7 +3,7 @@
     {
       "institution": "Treasury Board of Canada Secretariat",
       "title": "Web Developer (Co-op)",
-      "notes": "<strong>Django</strong>, <strong>Python</strong>, <strong>Pytest</strong>, <strong>GraphQL</strong>, <strong>ReactJS</strong>, <strong>JavaScript</strong>, <strong>TypeScript</strong>, <strong>Git</strong>, <strong>Bash</strong>, <strong>HTML</strong>, <strong>(S)CSS</strong>, <strong>JSON</strong>, <strong>YAML</strong>",
+      "notes": "<strong>Django</strong>, <strong>Python</strong>, <strong>Pytest</strong>, <strong>GraphQL</strong>, <strong>ReactJS</strong>, <strong>JavaScript</strong>, <strong>TypeScript</strong>, <strong>CircleCI</strong>, <strong>Git</strong>, <strong>Bash</strong>, <strong>HTML</strong>, <strong>(S)CSS</strong>, <strong>JSON</strong>, <strong>YAML</strong>",
       "descs": [
         {
           "title": "Achievements:",

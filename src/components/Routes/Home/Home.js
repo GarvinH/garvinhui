@@ -41,6 +41,15 @@ class Home extends React.Component {
           <h2>
             <span id="typingEl"></span>
           </h2>
+          <h5>
+            <a
+              href="https://drive.google.com/file/d/1QOW_dkKfpCT_TsJds_hiv2pR7BTqBcmT/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume
+            </a>
+          </h5>
           <h5>(647)-898-8793</h5>
           <h5>garvinhui@hotmail.com</h5>
           <button className={classes.social}>
