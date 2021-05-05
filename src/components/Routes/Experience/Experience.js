@@ -9,6 +9,8 @@ import {
 import jobs from "./Experience.json";
 import TimedEvent from "../../TimedEvent/TimedEvent";
 
+import classes from "./Experience.module.css"
+
 const CustomToggle = ({ children, eventKey }) => {
   const decoratedOnClick = useAccordionToggle(eventKey);
 
@@ -38,10 +40,11 @@ const Experience = () => (
         <Card.Header>
           <CustomToggle eventKey="0">Non-Technical Experience</CustomToggle>
         </Card.Header>
-        <Accordion.Collapse eventKey="0" style={{ backgroundColor: "#e9ecef" }}>
+        <Accordion.Collapse eventKey="0">
           <Fragment>
             {jobs.optional.map((job) => (
               <TimedEvent
+                className={classes["non-technical"]}
                 institution={job.institution}
                 title={job.title}
                 descs={job.descs}

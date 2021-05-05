@@ -1,5 +1,22 @@
 .App {
   text-align: center;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .App {
+    max-width: 768px;
+  }
+}
+@media (min-width: 992px) {
+  .App {
+    max-width: 992px;
+  }
+}
+@media (min-width: 1200px) {
+  .App {
+    max-width: 1200px;
+  }
 }
 
 .jumbotron {

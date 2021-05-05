@@ -43,7 +43,7 @@ const Details = React.forwardRef(
 
 const Project = ({ img, title, content, imgStyle }) => (
   <Col align="center">
-    <Card style={{ width: "18rem" }}>
+    <Card style={{ width: "18rem", marginBottom: "32px" }}>
       <Zoom>
         <Card.Img style={imgStyle} variant="top" src={img.default} />
       </Zoom>

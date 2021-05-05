@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
 import { Row, Col } from "react-bootstrap";
 
-const TimedEvent = ({ institution, title, notes, descs, duration, key }) => (
-  <div key={key} style={{ marginBottom: "4rem" }}>
+const TimedEvent = ({ institution, title, notes, descs, duration, key, className }) => (
+  <div key={key} style={{ marginBottom: "64px" }} className={className}>
     <h2 style={{ fontSize: "2.5rem", fontWeight: 600, textAlign: "left" }}>
       {institution}
     </h2>
