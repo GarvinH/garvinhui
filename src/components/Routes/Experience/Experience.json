@@ -33,7 +33,7 @@
     {
       "institution": "Treasury Board of Canada Secretariat",
       "title": "Web Developer (Co-op)",
-      "notes": "<strong>ReactJS</strong>, <strong>JavaScript</strong>, <strong>NodeJS</strong>, <strong>Jest</strong>, <strong>MongoDB</strong>, <strong>Mongoose</strong>, <strong>Git</strong>, <strong>Bash</strong>, <strong>HTML</strong>, <strong>(S)CSS</strong>, <strong>JSON</strong>, <strong>YAML</strong>",
+      "notes": "<strong>ReactJS</strong>, <strong>JavaScript</strong>, <strong>Asynchronous Programming</strong>, <strong>NodeJS</strong>, <strong>Redux</strong>, <strong>Jest</strong>, <strong>MongoDB</strong>, <strong>Mongoose</strong>, <strong>Git</strong>, <strong>Bash</strong>, <strong>HTML</strong>, <strong>(S)CSS</strong>, <strong>JSON</strong>, <strong>YAML</strong>",
       "descs": [
         {
           "title": "Achievements:",

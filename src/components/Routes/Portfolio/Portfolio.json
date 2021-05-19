@@ -17,13 +17,15 @@
           "desc": "Memo.io is a web app for writing notes online. Creating an account allows for your notes to be stored. These notes are encrypted to ensure privacy.",
           "tech": [
             "ReactJS - JavaScript",
-            "ReactRnD",
+            "CSS",
             "ExpressJS",
-            "Focus Trap React",
             "Redux",
-            "Heroku",
             "MongoDB",
+            "Mongoose",
             "PassportJS",
+            "ReactRnD",
+            "Focus Trap React",
+            "Heroku",
             "aes256"
           ],
           "website": "https://memo-io.herokuapp.com/",
@@ -38,7 +40,6 @@
           "tech": [
             "ReactJS - TypeScript",
             "React Bootstrap",
-            "Axios",
             "React Router",
             "Heroku",
             "OpenWeatherAPI"
@@ -57,7 +58,7 @@
         "img": "assets/eAnnotate.png",
         "content": {
           "desc": "eAnnotate is a local note-taking app built using ElectronJS. This was built for course GNG 2101.",
-          "tech": ["ReactJS", "React Bootstrap", "ElectronJS"],
+          "tech": ["ReactJS", "React Bootstrap", "ElectronJS", "Asynchronous Programming"],
           "github": "https://github.com/GarvinH/smart-annotation"
         }
       },
@@ -67,7 +68,7 @@
         "imgStyle": { "maxHeight": "10rem", "width": "auto", "margin": "auto" },
         "content": {
           "desc": "Service Novigrad is an android application used by a fictional province (a similar but simplified version of Service Ontario). This was built for SEG 2105.",
-          "tech": ["Android", "Java", "Firebase"],
+          "tech": ["Android", "Java", "Firebase", "JUnit"],
           "github": "https://github.com/SEG2105-uottawa/Service-Novigrad"
         }
       }

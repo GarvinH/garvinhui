@@ -47,7 +47,7 @@ class Home extends React.Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Resume
+              Résumé
             </a>
           </h5>
           <h5>(647)-898-8793</h5>
