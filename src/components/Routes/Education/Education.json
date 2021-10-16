@@ -1,23 +1,44 @@
 [
   {
-    "institution": "University of Ottawa",
-    "title": "Bachelor of Applied Science, Software Engineering",
-    "notes": "<mark>cGPA: 9.9 / 10</mark>",
-    "descs": [
+    "title": "Education",
+    "educations": [
       {
-        "title": "Relevant courses:",
-        "points": [
-          "Introduction to Computing I - ITI 1120 (<strong>Python</strong>)",
-          "Professional Communication and Responsibility - SEG 2900",
-          "Digital Systems I - ITI 1100",
-          "Introduction to Computing II - ITI 1121 (<strong>Java</strong>)",
-          "Discrete Mathematics for Computing - MAT 1348",
-          "Data Structures and Algorithms - CSI 2110 (<strong>Java</strong>)",
-          "Computer Architecture I - CEG 2136",
-          "Introduction to Software Engineering - SEG 2105 (<strong>Java</strong>, <strong>CircleCI</strong>, <strong>JUnit</strong>, <strong>Android Studio</strong>, <strong>Firebase</strong>, <strong>SQL</strong>, <strong>UML</strong>)"
-        ]
+        "institution": "University of Ottawa",
+        "title": "Bachelor of Applied Science, Software Engineering",
+        "notes": "<mark>cGPA: 9.9 / 10<br>GPA: 3.98 / 4</mark>",
+        "descs": [
+          {
+            "title": "Relevant courses:",
+            "points": [
+              "Introduction to Computing I — ITI 1120 (<strong>Python</strong>)",
+              "Professional Communication and Responsibility — SEG 2900",
+              "Digital Systems I — ITI 1100",
+              "Introduction to Computing II — ITI 1121 (<strong>Java</strong>)",
+              "Discrete Mathematics for Computing — MAT 1348",
+              "Data Structures and Algorithms — CSI 2110 (<strong>Java</strong>)",
+              "Computer Architecture I — CEG 2136",
+              "Introduction to Software Engineering — SEG 2105 (<strong>Java</strong>, <strong>CircleCI</strong>, <strong>JUnit</strong>, <strong>Android Studio</strong>, <strong>Firebase</strong>, <strong>SQL</strong>, <strong>UML</strong>)",
+              "Operating Systems — CSI 3131 (<strong>C</strong>)",
+              "Software Quality Assurance — SEG 3103 (<strong>Java</strong>, <strong>Elixir</strong>, <strong>JUnit</strong>, <strong>ExUnit</strong>)",
+              "Analysis and Design of User Interfaces — SEG 3125 (<strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>React Native</strong>, <strong>Android</strong>, <strong>TypeScript</strong>)"
+            ]
+          }
+        ],
+        "duration": "September 2019 — Present"
       }
-    ],
-    "duration": "September 2019 - Present"
+    ]
+  },
+  {
+    "title": "Certifications",
+    "educations": [
+      {
+        "institution": "Deep Learning Specialization",
+        "title": "DeepLearning.Ai"
+      },
+      {
+        "institution": "Machine Learning",
+        "title": "Stanford Online"
+      }
+    ]
   }
 ]
