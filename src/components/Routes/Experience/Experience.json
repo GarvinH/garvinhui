@@ -1,6 +1,20 @@
 {
   "required": [
     {
+      "institution": "JSI Telecom",
+      "title": "Software Developer (Co-op)",
+      "notes": "<strong>C#</strong>, <strong>.Net</strong>, <strong>Python</strong>, <strong>Ruby</strong>, <strong>SQL</strong>",
+      "descs": [
+        {
+          "title": "Achievements:",
+          "points": [
+            "Implemented an API to allow for customer customizability"
+          ]
+        }
+      ],
+      "duration": "Sept 2021 - Present"
+    },
+    {
       "institution": "Treasury Board of Canada Secretariat",
       "title": "Web Developer (Co-op)",
       "notes": "<strong>Django</strong>, <strong>Python</strong>, <strong>Pytest</strong>, <strong>GraphQL</strong>, <strong>ReactJS</strong>, <strong>JavaScript</strong>, <strong>TypeScript</strong>, <strong>CircleCI</strong>, <strong>Git</strong>, <strong>Bash</strong>, <strong>HTML</strong>, <strong>(S)CSS</strong>, <strong>JSON</strong>, <strong>YAML</strong>",
