@@ -16,7 +16,7 @@ const Details = React.forwardRef(
           <h5>Technology/Libraries:</h5>
           <ul>
             {content.tech.map((lib) => (
-              <li>{lib}</li>
+              <li dangerouslySetInnerHTML={{__html: lib}} />
             ))}
           </ul>
         </Popover.Content>

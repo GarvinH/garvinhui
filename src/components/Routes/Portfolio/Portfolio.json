@@ -6,7 +6,7 @@
         "title": "This Website",
         "img": "assets/garvinhui-website.png",
         "content": {
-          "tech": ["ReactJS - JavaScript", "React Bootstrap", "React Router"],
+          "tech": ["<strong>ReactJS - JavaScript</strong>", "React Bootstrap", "React Router"],
           "github": "https://github.com/GarvinH/garvinhui"
         }
       },
@@ -16,16 +16,16 @@
         "content": {
           "desc": "Memo.io is a web app for writing notes online. Creating an account allows for your notes to be stored. These notes are encrypted to ensure privacy.",
           "tech": [
-            "ReactJS - JavaScript",
-            "CSS",
-            "ExpressJS",
-            "Redux",
-            "MongoDB",
-            "Mongoose",
-            "PassportJS",
+            "<strong>ReactJS - JavaScript</strong>",
+            "<strong>CSS</strong>",
+            "<strong>ExpressJS</strong>",
+            "<strong>Redux</strong>",
+            "<strong>MongoDB</strong>",
+            "<strong>Mongoose</strong>",
+            "<strong>Heroku</strong>",
+            "<strong>PassportJS</strong>",
             "ReactRnD",
             "Focus Trap React",
-            "Heroku",
             "aes256"
           ],
           "website": "https://memo-io.herokuapp.com/",
@@ -38,10 +38,10 @@
         "content": {
           "desc": "Forecast.io is a web app for determining the weather. It uses the OpenWeatherAPI to provide the data.",
           "tech": [
-            "ReactJS - TypeScript",
+            "<strong>ReactJS - TypeScript</strong>",
+            "<strong>Heroku</strong>",
             "React Bootstrap",
             "React Router",
-            "Heroku",
             "OpenWeatherAPI"
           ],
           "website": "https://forecast-io.herokuapp.com/#/forecast",
@@ -57,8 +57,8 @@
         "title": "eAnnotate",
         "img": "assets/eAnnotate.png",
         "content": {
-          "desc": "eAnnotate is a local note-taking app built using ElectronJS. This was built for course GNG 2101.",
-          "tech": ["ReactJS", "React Bootstrap", "ElectronJS", "Asynchronous Programming"],
+          "desc": "eAnnotate is a local note-taking app built using ElectronJS. This was built for course GNG 2101 — Introduction to Product Development and Management for Engineers and Computer Scientists.",
+          "tech": ["<strong>ReactJS</strong>", "<strong>Asynchronous Programming</strong>", "React Bootstrap", "ElectronJS"],
           "github": "https://github.com/GarvinH/smart-annotation"
         }
       },
@@ -67,9 +67,19 @@
         "img": "assets/novigrad.png",
         "imgStyle": { "maxHeight": "10rem", "width": "auto", "margin": "auto" },
         "content": {
-          "desc": "Service Novigrad is an android application used by a fictional province (a similar but simplified version of Service Ontario). This was built for SEG 2105.",
-          "tech": ["Android", "Java", "Firebase", "JUnit"],
+          "desc": "Service Novigrad is an android application used by a fictional province (a similar but simplified version of Service Ontario). This was built for SEG 2105 — Introduction to Software Engineering.",
+          "tech": ["<strong>Android</strong>", "<strong>Java</strong>", "<strong>Firebase</strong>", "<strong>JUnit</strong>"],
           "github": "https://github.com/SEG2105-uottawa/Service-Novigrad"
+        }
+      },
+      {
+        "title": "Easy Japanese",
+        "img": "assets/easyjapanese.png",
+        "imgStyle": { "maxHeight": "10rem", "width": "auto", "margin": "auto" },
+        "content": {
+          "desc": "Easy Japanese is an android application which emulates what a Japanese learning app might look like. This was built for SEG 3125 — Analysis and Design of User Interfaces.",
+          "tech": ["<strong>Android</strong>", "<strong>React Native</strong>", "<strong>TypeScript</strong>"],
+          "github": "https://github.com/GarvinH/easy-japanese"
         }
       }
     ]
