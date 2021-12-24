@@ -3,16 +3,18 @@
     {
       "institution": "JSI Telecom",
       "title": "Software Developer (Co-op)",
-      "notes": "<strong>C#</strong>, <strong>.Net</strong>, <strong>Python</strong>, <strong>Ruby</strong>, <strong>SQL</strong>",
+      "notes": "<strong>C#</strong>, <strong>.Net</strong>, <strong>Angular</strong>, <strong>TypeScript</strong> <strong>Python</strong>, <strong>Ruby</strong>, <strong>SQL</strong>, <strong>TFS/Azure DevOps</strong>, <strong>Confluence</strong>",
       "descs": [
         {
           "title": "Achievements:",
           "points": [
-            "Implemented an API to allow for customer customizability"
+            "Implemented an API to allow for customer customizability",
+            "Assisted with R&D of an in-house search engine with performance of sub-10ms on over 1 million records",
+            "Maintained and supported existing systems across the codebase"
           ]
         }
       ],
-      "duration": "Sept 2021 — Present"
+      "duration": "Sept 2021 — Dec 2021"
     },
     {
       "institution": "Treasury Board of Canada Secretariat",
