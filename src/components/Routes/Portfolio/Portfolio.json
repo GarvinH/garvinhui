@@ -6,7 +6,11 @@
         "title": "This Website",
         "img": "assets/garvinhui-website.png",
         "content": {
-          "tech": ["<strong>ReactJS - JavaScript</strong>", "React Bootstrap", "React Router"],
+          "tech": [
+            "<strong>ReactJS - JavaScript</strong>",
+            "React Bootstrap",
+            "React Router"
+          ],
           "github": "https://github.com/GarvinH/garvinhui"
         }
       },
@@ -58,7 +62,12 @@
         "img": "assets/eAnnotate.png",
         "content": {
           "desc": "eAnnotate is a local note-taking app built using ElectronJS. This was built for course GNG 2101 — Introduction to Product Development and Management for Engineers and Computer Scientists.",
-          "tech": ["<strong>ReactJS</strong>", "<strong>Asynchronous Programming</strong>", "React Bootstrap", "ElectronJS"],
+          "tech": [
+            "<strong>ReactJS</strong>",
+            "<strong>Asynchronous Programming</strong>",
+            "React Bootstrap",
+            "ElectronJS"
+          ],
           "github": "https://github.com/GarvinH/smart-annotation"
         }
       },
@@ -68,7 +77,12 @@
         "imgStyle": { "maxHeight": "10rem", "width": "auto", "margin": "auto" },
         "content": {
           "desc": "Service Novigrad is an android application used by a fictional province (a similar but simplified version of Service Ontario). This was built for SEG 2105 — Introduction to Software Engineering.",
-          "tech": ["<strong>Android</strong>", "<strong>Java</strong>", "<strong>Firebase</strong>", "<strong>JUnit</strong>"],
+          "tech": [
+            "<strong>Android</strong>",
+            "<strong>Java</strong>",
+            "<strong>Firebase</strong>",
+            "<strong>JUnit</strong>"
+          ],
           "github": "https://github.com/SEG2105-uottawa/Service-Novigrad"
         }
       },
@@ -78,8 +92,39 @@
         "imgStyle": { "maxHeight": "10rem", "width": "auto", "margin": "auto" },
         "content": {
           "desc": "Easy Japanese is an android application which emulates what a Japanese learning app might look like. This was built for SEG 3125 — Analysis and Design of User Interfaces.",
-          "tech": ["<strong>Android</strong>", "<strong>React Native</strong>", "<strong>TypeScript</strong>"],
+          "tech": [
+            "<strong>Android</strong>",
+            "<strong>React Native</strong>",
+            "<strong>TypeScript</strong>"
+          ],
           "github": "https://github.com/GarvinH/easy-japanese"
+        }
+      }
+    ]
+  },
+  {
+    "accordion": "Smaller Side Projects",
+    "projects": [
+      {
+        "title": "Connect 4",
+        "img": "assets/Connect4.png",
+        "imgStyle": { "maxHeight": "10rem", "width": "auto", "margin": "auto" },
+        "content": {
+          "desc": "A 2d game of Connect 4 for local multiplayer. Built to learn C++.",
+          "tech": [
+            "<strong>C++</strong>",
+            "<strong>SFML (C++ multimedia library used for graphics)</strong>"
+          ],
+          "github": "https://github.com/GarvinH/Cpp-Connect-4"
+        }
+      },
+      {
+        "title": "Inventory Tracker",
+        "img": "assets/inventory_tracker.png",
+        "content": {
+          "desc": "A simple CRUD application that supports CSV exporting. Built to learn Ruby and Ruby on Rails",
+          "tech": ["<strong>Ruby</strong>", "<strong>Ruby on Rails</strong>"],
+          "github": "https://github.com/GarvinH/inventory-tracker"
         }
       }
     ]

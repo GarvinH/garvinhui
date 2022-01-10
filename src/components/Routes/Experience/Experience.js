@@ -3,23 +3,12 @@ import {
   Jumbotron,
   Accordion,
   Card,
-  Button,
-  useAccordionToggle,
 } from "react-bootstrap";
 import jobs from "./Experience.json";
 import TimedEvent from "../../TimedEvent/TimedEvent";
+import { CustomToggle } from "../../AccordionToggle/CustomToggle";
 
 import classes from "./Experience.module.css"
-
-const CustomToggle = ({ children, eventKey }) => {
-  const decoratedOnClick = useAccordionToggle(eventKey);
-
-  return (
-    <Button variant="dark" onClick={decoratedOnClick}>
-      {children}
-    </Button>
-  );
-};
 
 const Experience = () => (
   <Jumbotron>
