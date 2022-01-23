@@ -11,30 +11,33 @@ const Details = React.forwardRef(
 
     return (
       <Popover ref={ref} content {...props}>
-        {content.desc ? <Popover.Title>{content.desc}</Popover.Title> : null}
+        {content.desc ? (
+          <Popover.Title>
+            {content.desc.split("\n").map((text, index) => (
+              <p key={index}>{text}</p>
+            ))}
+          </Popover.Title>
+        ) : null}
         <Popover.Content>
           <h5>Technology/Libraries:</h5>
           <ul>
             {content.tech.map((lib) => (
-              <li dangerouslySetInnerHTML={{__html: lib}} />
+              <li dangerouslySetInnerHTML={{ __html: lib }} />
             ))}
           </ul>
         </Popover.Content>
         <Popover.Title>
-          {content.website ? (
-            <p>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href={content.website}
-              >
-                Website
-              </a>
-            </p>
-          ) : null}
-          <a target="_blank" rel="noopener noreferrer" href={content.github}>
-            Github
-          </a>
+          {content.links && (
+            <ul style={{ marginBottom: 0 }}>
+              {content.links.map((link, index) => (
+                <li key={index}>
+                  <a target="_blank" rel="noopener noreferrer" href={link.href}>
+                    {link.text}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          )}
         </Popover.Title>
       </Popover>
     );
@@ -44,7 +47,7 @@ const Details = React.forwardRef(
 const Project = ({ img, title, content, imgStyle }) => (
   <Col align="center">
     <Card style={{ width: "18rem", marginBottom: "32px" }}>
-      <Zoom>
+      <Zoom wrapStyle={{margin: "0 auto"}}>
         <Card.Img style={imgStyle} variant="top" src={img.default} />
       </Zoom>
       <Card.Body style={{ borderTop: "1px black solid" }}>

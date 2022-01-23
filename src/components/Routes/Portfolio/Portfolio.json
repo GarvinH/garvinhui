@@ -11,7 +11,12 @@
             "React Bootstrap",
             "React Router"
           ],
-          "github": "https://github.com/GarvinH/garvinhui"
+          "links": [
+            {
+              "text": "GitHub",
+              "href": "https://github.com/GarvinH/garvinhui"
+            }
+          ]
         }
       },
       {
@@ -32,8 +37,16 @@
             "Focus Trap React",
             "aes256"
           ],
-          "website": "https://memo-io.herokuapp.com/",
-          "github": "https://github.com/GarvinH/Memo-io"
+          "links": [
+            {
+              "text": "Website",
+              "href": "https://memo-io.herokuapp.com/"
+            },
+            {
+              "text": "GitHub",
+              "href": "https://github.com/GarvinH/Memo-io"
+            }
+          ]
         }
       },
       {
@@ -48,8 +61,40 @@
             "React Router",
             "OpenWeatherAPI"
           ],
-          "website": "https://forecast-io.herokuapp.com/#/forecast",
-          "github": "https://github.com/GarvinH/ForecastIO"
+          "links": [
+            {
+              "text": "Website",
+              "href": "https://forecast-io.herokuapp.com/#/forecast"
+            },
+            {
+              "text": "GitHub",
+              "href": "https://github.com/GarvinH/ForecastIO"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Connect 4",
+        "img": "assets/Connect4.png",
+        "imgStyle": { "maxHeight": "10rem", "width": "auto", "margin": "auto" },
+        "content": {
+          "desc": "1. A 2D game of multiplayer Connect 4 over LAN. Built with Godot for the purpose of learning basic networking concepts.\n2. A 2D game of multiplayer Connect 4 on the same computer. Built to learn C++.",
+          "tech": [
+            "<strong>Godot</strong>",
+            "<strong>Networking</strong>",
+            "<strong>C++</strong>",
+            "<strong>SFML (C++ multimedia library used for graphics)</strong>"
+          ],
+          "links": [
+            {
+              "text": "GitHub (Godot, LAN Multiplayer)",
+              "href": "https://github.com/GarvinH/Godot-4-in-a-row"
+            },
+            {
+              "text": "GitHub (C++)",
+              "href": "https://github.com/GarvinH/Cpp-Connect-4"
+            }
+          ]
         }
       }
     ]
@@ -68,7 +113,12 @@
             "React Bootstrap",
             "ElectronJS"
           ],
-          "github": "https://github.com/GarvinH/smart-annotation"
+          "links": [
+            {
+              "text": "GitHub",
+              "href": "https://github.com/GarvinH/smart-annotation"
+            }
+          ]
         }
       },
       {
@@ -83,7 +133,12 @@
             "<strong>Firebase</strong>",
             "<strong>JUnit</strong>"
           ],
-          "github": "https://github.com/SEG2105-uottawa/Service-Novigrad"
+          "links": [
+            {
+              "text": "GitHub",
+              "href": "https://github.com/SEG2105-uottawa/Service-Novigrad"
+            }
+          ]
         }
       },
       {
@@ -97,7 +152,12 @@
             "<strong>React Native</strong>",
             "<strong>TypeScript</strong>"
           ],
-          "github": "https://github.com/GarvinH/easy-japanese"
+          "links": [
+            {
+              "text": "GitHub",
+              "href": "https://github.com/GarvinH/easy-japanese"
+            }
+          ]
         }
       }
     ]
@@ -106,25 +166,35 @@
     "accordion": "Smaller Side Projects",
     "projects": [
       {
-        "title": "Connect 4",
-        "img": "assets/Connect4.png",
-        "imgStyle": { "maxHeight": "10rem", "width": "auto", "margin": "auto" },
-        "content": {
-          "desc": "A 2d game of Connect 4 for local multiplayer. Built to learn C++.",
-          "tech": [
-            "<strong>C++</strong>",
-            "<strong>SFML (C++ multimedia library used for graphics)</strong>"
-          ],
-          "github": "https://github.com/GarvinH/Cpp-Connect-4"
-        }
-      },
-      {
         "title": "Inventory Tracker",
         "img": "assets/inventory_tracker.png",
         "content": {
           "desc": "A simple CRUD application that supports CSV exporting. Built to learn Ruby and Ruby on Rails",
           "tech": ["<strong>Ruby</strong>", "<strong>Ruby on Rails</strong>"],
-          "github": "https://github.com/GarvinH/inventory-tracker"
+          "links": [
+            {
+              "text": "GitHub",
+              "href": "https://github.com/GarvinH/inventory-tracker"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Spacestagram",
+        "img": "assets/spacestagram.png",
+        "content": {
+          "desc": "A react application which gets data from the NASA APOD API to display it in a post format while allowing users to like posts and select a time range to view from.",
+          "tech": [
+            "<strong>React</strong>",
+            "<strong>TypeScript</strong>",
+            "<strong>ExpressJS</strong>"
+          ],
+          "links": [
+            {
+              "text": "GitHub",
+              "href": "https://github.com/GarvinH/spacestagram"
+            }
+          ]
         }
       }
     ]
