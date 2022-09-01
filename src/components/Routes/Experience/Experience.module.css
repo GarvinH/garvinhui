@@ -1,3 +1,7 @@
 .non-technical:first-of-type {
     margin-top: 64px;
 }
+
+.non-technical {
+    padding: 0 15px;
+}

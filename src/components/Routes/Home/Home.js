@@ -21,7 +21,9 @@ class Home extends React.Component {
       backSpeed: 30,
     };
 
-    this.typed = new Typed("#typingEl", options);
+    if (!this.typed) {
+      this.typed = new Typed("#typingEl", options);
+    }
   }
 
   render() {

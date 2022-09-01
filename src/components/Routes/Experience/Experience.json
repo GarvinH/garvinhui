@@ -1,16 +1,32 @@
 {
   "required": [
     {
+      "institution": "TD Bank",
+      "title": "Software Engineering Co-op",
+      "notes": "<strong>Java</strong>, <strong>Spring</strong> (batch), <strong>SQL</strong>, <strong>Shell / PowerShell</strong>, <strong>Jira</strong>, <strong>Confluence</strong>, <strong>BitBucket</strong>",
+      "descs": [
+        {
+          "title": "Achievements:",
+          "points": [
+            "Developed and created PoC for ETL process used to migrate over 2 million records daily",
+            "Created scripts to automate integration with third-party software and simplyify manual tasks",
+            "Maintained and refactored code to implement software design patterns (such as Singleton)"
+          ]
+        }
+      ],
+      "duration": "May 2022 — Aug 2022"
+    },
+    {
       "institution": "JSI Telecom",
       "title": "Software Developer (Co-op)",
-      "notes": "<strong>C#</strong>, <strong>.Net</strong>, <strong>Angular</strong>, <strong>TypeScript</strong> <strong>Python</strong>, <strong>Ruby</strong>, <strong>SQL</strong>, <strong>TFS/Azure DevOps</strong>, <strong>Confluence</strong>",
+      "notes": "<strong>C#</strong>, <strong>.Net</strong>, <strong>Angular</strong>, <strong>TypeScript</strong>, <strong>Python</strong>, <strong>SQL</strong>, <strong>TFS / Azure DevOps (SCM and Tracking)</strong>, <strong>Confluence</strong>",
       "descs": [
         {
           "title": "Achievements:",
           "points": [
             "Implemented an API to allow for customer customizability",
             "Assisted with R&D of an in-house search engine with performance of sub-10ms on over 1 million records",
-            "Maintained and supported existing systems across the codebase"
+            "Supported and maintained existing systems across the codebase"
           ]
         }
       ],
@@ -19,7 +35,7 @@
     {
       "institution": "Treasury Board of Canada Secretariat",
       "title": "Web Developer (Co-op)",
-      "notes": "<strong>Django</strong>, <strong>Python</strong>, <strong>Pytest</strong>, <strong>GraphQL</strong>, <strong>ReactJS</strong>, <strong>JavaScript</strong>, <strong>TypeScript</strong>, <strong>CircleCI</strong>, <strong>Git</strong>, <strong>Bash</strong>, <strong>HTML</strong>, <strong>(S)CSS</strong>, <strong>JSON</strong>, <strong>YAML</strong>",
+      "notes": "<strong>Django</strong>, <strong>Python</strong>, <strong>Pytest</strong>, <strong>GraphQL</strong>, <strong>ReactJS</strong>, <strong>JavaScript</strong>, <strong>TypeScript</strong>, <strong>CircleCI</strong>, <strong>GitHub</strong>, <strong>Bash</strong>, <strong>HTML</strong>, <strong>(S)CSS</strong>, <strong>JSON</strong>, <strong>YAML</strong>",
       "descs": [
         {
           "title": "Achievements:",
@@ -35,7 +51,7 @@
     {
       "institution": "Treasury Board of Canada Secretariat",
       "title": "Web Developer (Part-time)",
-      "notes": "<strong>ReactJS</strong>, <strong>JavaScript</strong>, <strong>Git</strong>, <strong>Bash</strong>, <strong>HTML</strong>, <strong>(S)CSS</strong>, <strong>JSON</strong>, <strong>YAML</strong>",
+      "notes": "<strong>ReactJS</strong>, <strong>JavaScript</strong>, <strong>GitHub</strong>, <strong>Bash</strong>, <strong>HTML</strong>, <strong>(S)CSS</strong>, <strong>JSON</strong>, <strong>YAML</strong>",
       "descs": [
         {
           "title": "Achievements:",
@@ -49,7 +65,7 @@
     {
       "institution": "Treasury Board of Canada Secretariat",
       "title": "Web Developer (Co-op)",
-      "notes": "<strong>ReactJS</strong>, <strong>JavaScript</strong>, <strong>Asynchronous Programming</strong>, <strong>NodeJS</strong>, <strong>Redux</strong>, <strong>Jest</strong>, <strong>MongoDB</strong>, <strong>Mongoose</strong>, <strong>Git</strong>, <strong>Bash</strong>, <strong>HTML</strong>, <strong>(S)CSS</strong>, <strong>JSON</strong>, <strong>YAML</strong>",
+      "notes": "<strong>ReactJS</strong>, <strong>JavaScript</strong>, <strong>Asynchronous Programming</strong>, <strong>NodeJS</strong>, <strong>Redux</strong>, <strong>Jest</strong>, <strong>MongoDB</strong>, <strong>Mongoose</strong>, <strong>GitHub</strong>, <strong>Bash</strong>, <strong>HTML</strong>, <strong>(S)CSS</strong>, <strong>JSON</strong>, <strong>YAML</strong>",
       "descs": [
         {
           "title": "Achievements:",
