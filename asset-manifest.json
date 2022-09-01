@@ -1,34 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.79e6997b.chunk.css",
-    "main.js": "/static/js/main.7a419171.chunk.js",
-    "main.js.map": "/static/js/main.7a419171.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.0c371430.js",
-    "runtime-main.js.map": "/static/js/runtime-main.0c371430.js.map",
-    "static/css/2.ad270154.chunk.css": "/static/css/2.ad270154.chunk.css",
-    "static/js/2.99c8812c.chunk.js": "/static/js/2.99c8812c.chunk.js",
-    "static/js/2.99c8812c.chunk.js.map": "/static/js/2.99c8812c.chunk.js.map",
+    "main.css": "/static/css/main.074c2474.css",
+    "main.js": "/static/js/main.a4f262ac.js",
+    "static/js/787.bd7811cd.chunk.js": "/static/js/787.bd7811cd.chunk.js",
+    "static/media/garvinhui.jpg": "/static/media/garvinhui.f797907005b6bdcd42e9.jpg",
+    "static/media/spacestagram.png": "/static/media/spacestagram.7d7c8bf91fdcc8fe26fe.png",
+    "static/media/garvinhui-website.png": "/static/media/garvinhui-website.6e1cf1aca70200db6d9e.png",
+    "static/media/easyjapanese.png": "/static/media/easyjapanese.9902ffdbbae8b8a1d8cd.png",
+    "static/media/novigrad.png": "/static/media/novigrad.fe6a1cca21053f582464.png",
+    "static/media/inventory_tracker.png": "/static/media/inventory_tracker.98694a6eedb075e444e0.png",
+    "static/media/forecast-io.png": "/static/media/forecast-io.16b07629fcfd2ff818db.png",
+    "static/media/eAnnotate.png": "/static/media/eAnnotate.6cffbd895f25e81f7cec.png",
+    "static/media/memo-io.png": "/static/media/memo-io.bedf8d32c9c7d91d8fff.png",
+    "static/media/Connect4.png": "/static/media/Connect4.56c23421b1d8daa3ad33.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88.svg",
     "index.html": "/index.html",
-    "static/css/2.ad270154.chunk.css.map": "/static/css/2.ad270154.chunk.css.map",
-    "static/css/main.79e6997b.chunk.css.map": "/static/css/main.79e6997b.chunk.css.map",
-    "static/js/2.99c8812c.chunk.js.LICENSE.txt": "/static/js/2.99c8812c.chunk.js.LICENSE.txt",
-    "static/media/Connect4.png": "/static/media/Connect4.56c23421.png",
-    "static/media/eAnnotate.png": "/static/media/eAnnotate.6cffbd89.png",
-    "static/media/easyjapanese.png": "/static/media/easyjapanese.9902ffdb.png",
-    "static/media/forecast-io.png": "/static/media/forecast-io.16b07629.png",
-    "static/media/garvinhui-website.png": "/static/media/garvinhui-website.6e1cf1ac.png",
-    "static/media/garvinhui.jpg": "/static/media/garvinhui.f7979070.jpg",
-    "static/media/inventory_tracker.png": "/static/media/inventory_tracker.98694a6e.png",
-    "static/media/logo.svg": "/static/media/logo.103b5fa1.svg",
-    "static/media/memo-io.png": "/static/media/memo-io.bedf8d32.png",
-    "static/media/novigrad.png": "/static/media/novigrad.fe6a1cca.png",
-    "static/media/spacestagram.png": "/static/media/spacestagram.7d7c8bf9.png"
+    "main.074c2474.css.map": "/static/css/main.074c2474.css.map",
+    "main.a4f262ac.js.map": "/static/js/main.a4f262ac.js.map",
+    "787.bd7811cd.chunk.js.map": "/static/js/787.bd7811cd.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.0c371430.js",
-    "static/css/2.ad270154.chunk.css",
-    "static/js/2.99c8812c.chunk.js",
-    "static/css/main.79e6997b.chunk.css",
-    "static/js/main.7a419171.chunk.js"
+    "static/css/main.074c2474.css",
+    "static/js/main.a4f262ac.js"
   ]
 }
