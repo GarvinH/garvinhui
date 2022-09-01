@@ -48,7 +48,7 @@ const Project = ({ img, title, content, imgStyle }) => (
   <Col align="center">
     <Card style={{ width: "18rem", marginBottom: "32px" }}>
       <Zoom wrapStyle={{margin: "0 auto"}}>
-        <Card.Img style={imgStyle} variant="top" src={img.default} />
+        <Card.Img style={imgStyle} variant="top" src={img} />
       </Zoom>
       <Card.Body style={{ borderTop: "1px black solid" }}>
         <Card.Title>
