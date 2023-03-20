@@ -1,0 +1,226 @@
+.progressive-lightup {
+    animation: lightup-animation 5s linear infinite;
+}
+
+.lightup-1 {
+    --color-1: var(--neon-blue);
+    --color-2: var(--neon-blue);
+    --color-3: var(--neon-blue);
+    --color-4: var(--neon-blue);
+    --color-5: var(--neon-blue);
+    --color-6: var(--neon-blue);
+
+    --shadow-1: var(--neon-blue-shadow);
+    --shadow-2: var(--neon-blue-shadow);
+    --shadow-3: var(--neon-blue-shadow);
+    --shadow-4: var(--neon-blue-shadow);
+    --shadow-5: var(--neon-blue-shadow);
+    --shadow-6: var(--neon-blue-shadow);
+}
+
+.lightup-2 {
+    --color-1: var(--neon-blue-off);
+    --color-2: var(--neon-blue);
+    --color-3: var(--neon-blue);
+    --color-4: var(--neon-blue);
+    --color-5: var(--neon-blue);
+    --color-6: var(--neon-blue);
+
+    --shadow-1: var(--shadow-off);
+    --shadow-2: var(--neon-blue-shadow);
+    --shadow-3: var(--neon-blue-shadow);
+    --shadow-4: var(--neon-blue-shadow);
+    --shadow-5: var(--neon-blue-shadow);
+    --shadow-6: var(--neon-blue-shadow);
+
+}
+
+.lightup-3 {
+    --color-1: var(--neon-blue-off);
+    --color-2: var(--neon-blue-off);
+    --color-3: var(--neon-blue);
+    --color-4: var(--neon-blue);
+    --color-5: var(--neon-blue);
+    --color-6: var(--neon-blue);
+    --shadow-1: var(--shadow-off);
+    --shadow-2: var(--shadow-off);
+    --shadow-3: var(--neon-blue-shadow);
+    --shadow-4: var(--neon-blue-shadow);
+    --shadow-5: var(--neon-blue-shadow);
+    --shadow-6: var(--neon-blue-shadow);
+}
+
+.lightup-4 {
+    --color-1: var(--neon-blue-off);
+    --color-2: var(--neon-blue-off);
+    --color-3: var(--neon-blue-off);
+    --color-4: var(--neon-blue);
+    --color-5: var(--neon-blue);
+    --color-6: var(--neon-blue);
+    --shadow-1: var(--shadow-off);
+    --shadow-2: var(--shadow-off);
+    --shadow-3: var(--shadow-off);
+    --shadow-4: var(--neon-blue-shadow);
+    --shadow-5: var(--neon-blue-shadow);
+    --shadow-6: var(--neon-blue-shadow);
+
+}
+
+.lightup-5 {
+    --color-1: var(--neon-blue-off);
+    --color-2: var(--neon-blue-off);
+    --color-3: var(--neon-blue-off);
+    --color-4: var(--neon-blue-off);
+    --color-5: var(--neon-blue);
+    --color-6: var(--neon-blue);
+    --shadow-1: var(--shadow-off);
+    --shadow-2: var(--shadow-off);
+    --shadow-3: var(--shadow-off);
+    --shadow-4: var(--shadow-off);
+    --shadow-5: var(--neon-blue-shadow);
+    --shadow-6: var(--neon-blue-shadow);
+
+}
+
+.lightup-6 {
+    --color-1: var(--neon-blue-off);
+    --color-2: var(--neon-blue-off);
+    --color-3: var(--neon-blue-off);
+    --color-4: var(--neon-blue-off);
+    --color-5: var(--neon-blue-off);
+    --color-6: var(--neon-blue);
+    --shadow-1: var(--shadow-off);
+    --shadow-2: var(--shadow-off);
+    --shadow-3: var(--shadow-off);
+    --shadow-4: var(--shadow-off);
+    --shadow-5: var(--shadow-off);
+    --shadow-6: var(--neon-blue-shadow);
+
+}
+
+@keyframes lightup-animation {
+    0% {
+        color: var(--color-1);
+        text-shadow: var(--shadow-1);
+    }
+
+    13% {
+        color: var(--color-1);
+        text-shadow: var(--shadow-1);
+    }
+
+    14% {
+        color: var(--color-2);
+        text-shadow: var(--shadow-2);
+    }
+
+    27% {
+        color: var(--color-2);
+        text-shadow: var(--shadow-2);
+    }
+
+    28% {
+        color: var(--color-3);
+        text-shadow: var(--shadow-3);
+    }
+
+    41% {
+        color: var(--color-3);
+        text-shadow: var(--shadow-3);
+    }
+
+    42% {
+        color: var(--color-4);
+        text-shadow: var(--shadow-4);
+    }
+
+    55% {
+        color: var(--color-4);
+        text-shadow: var(--shadow-4);
+    }
+
+    56% {
+        color: var(--color-5);
+        text-shadow: var(--shadow-5);
+    }
+
+    69% {
+        color: var(--color-5);
+        text-shadow: var(--shadow-5);
+    }
+
+    70% {
+        color: var(--color-6);
+        text-shadow: var(--shadow-6);
+    }
+
+    100% {
+        color: var(--color-6);
+        text-shadow: var(--shadow-6);
+    }
+}
+
+.flicker {
+    animation: flicker-animation 4s linear infinite;
+}
+
+@keyframes flicker-animation {
+    0% {
+        color: var(--neon-blue);
+        text-shadow: var(--neon-blue-shadow);
+    }
+
+    9% {
+        color: var(--neon-blue);
+        text-shadow: var(--neon-blue-shadow);
+    }
+
+    10% {
+        color: var(--neon-blue-off);
+        text-shadow: var(--shadow-off);
+    }
+
+    11% {
+        color: var(--neon-blue);
+        text-shadow: var(--neon-blue-shadow);
+    }
+
+    12% {
+        color: var(--neon-blue-off);
+        text-shadow: var(--shadow-off);
+    }
+
+    13% {
+        color: var(--neon-blue);
+        text-shadow: var(--neon-blue-shadow);
+    }
+
+    14% {
+        color: var(--neon-blue-off);
+        text-shadow: var(--shadow-off);
+    }
+
+    15% {
+        color: var(--neon-blue);
+        text-shadow: var(--neon-blue-shadow);
+    }
+
+    100% {
+        color: var(--neon-blue)
+    }
+}
+
+.english-title {
+    font-size: 8rem;
+}
+
+.japanese-title {
+    font-size: 6rem;
+}
+
+.name-sign {
+    padding: 64px;
+    border: 16px var(--neon-blue) solid;
+    border-radius: 32px;
+    box-shadow: var(--neon-blue-shadow), inset var(--neon-blue-shadow);
+}

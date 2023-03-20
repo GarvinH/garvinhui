@@ -2,9 +2,10 @@ import React, { Fragment } from "react";
 import { Jumbotron, Row, Accordion, Card } from "react-bootstrap";
 
 import Project from "./Project/Project";
-import { CustomToggle } from "../../AccordionToggle/CustomToggle";
+import { CustomToggle } from "components/regular/AccordionToggle/CustomToggle";
 
 import projects from "./Portfolio.json";
+import NavBar from "components/regular/NavBar/NavBar";
 
 const RenderProject = (project_category) => (
   <Fragment>
@@ -29,26 +30,29 @@ const RenderProject = (project_category) => (
 );
 
 const Portfolio = () => (
-  <Jumbotron>
-    {projects.map((project_category) =>
-      !project_category.accordion ? (
-        <RenderProject {...project_category} />
-      ) : (
-        <Accordion>
-          <Card>
-            <Card.Header>
-              <CustomToggle eventKey="0">
-                {project_category.accordion}
-              </CustomToggle>
-            </Card.Header>
-            <Accordion.Collapse eventKey="0">
-              <RenderProject {...project_category} />
-            </Accordion.Collapse>
-          </Card>
-        </Accordion>
-      )
-    )}
-  </Jumbotron>
+  <div className="regular">
+    <NavBar />
+    <Jumbotron>
+      {projects.map((project_category) =>
+        !project_category.accordion ? (
+          <RenderProject {...project_category} />
+        ) : (
+          <Accordion>
+            <Card>
+              <Card.Header>
+                <CustomToggle eventKey="0">
+                  {project_category.accordion}
+                </CustomToggle>
+              </Card.Header>
+              <Accordion.Collapse eventKey="0">
+                <RenderProject {...project_category} />
+              </Accordion.Collapse>
+            </Card>
+          </Accordion>
+        )
+      )}
+    </Jumbotron>
+  </div>
 );
 
 export default Portfolio;

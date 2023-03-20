@@ -1,0 +1,32 @@
+.default {
+    background-color: #1e002b;
+    color: var(--neon-blue);
+    text-shadow: var(--neon-blue-shadow);
+}
+
+.nav-col {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.content-col {
+    padding-top: 256px;
+    display: flex;
+    justify-content:center;
+}
+
+@media (max-width: 1199.98px) {
+    .nav-col {
+        height: auto;
+        justify-content: start;
+    }
+    
+    .content-col {
+        padding-top: 16px;
+    }
+}
+
+h1, h2, h3, p {
+}
