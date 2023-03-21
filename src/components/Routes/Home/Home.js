@@ -6,15 +6,13 @@ import github from "../../../assets/github-logo.png";
 import linkedin from "../../../assets/linkedin-logo.png";
 import Typed from "typed.js";
 import NavBar from "components/regular/NavBar/NavBar";
+import text from "text/home.json"
 
 class Home extends React.Component {
   componentDidMount() {
+    const strings = text.descriptors.map(pair => pair.en);
     const options = {
-      strings: [
-        "Software Engineering Student",
-        "日本が好きな人です (Japan Enthusiast)",
-        "Developer",
-      ],
+      strings: strings,
       typeSpeed: 40,
       loop: true,
       loopCount: Infinity,
