@@ -223,4 +223,51 @@
     border: 16px var(--neon-blue) solid;
     border-radius: 32px;
     box-shadow: var(--neon-blue-shadow), inset var(--neon-blue-shadow);
+    text-align: center;
+}
+
+/* https://dev.to/ekeijl/retro-crt-terminal-screen-in-css-js-4afh
+ * giving credit where credit is due
+ */
+
+.crt:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(to bottom,
+            rgba(18, 16, 16, 0) 50%,
+            rgba(0, 0, 0, 0.25) 50%);
+    background-size: 100% 4px;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.marquee-sign {
+    position: relative;
+    margin-top: 64px;
+    border: 4px rgba(18, 16, 16, 1) solid;
+    width: 100%;
+}
+
+.marquee-descriptions {
+    font-size: 4rem;
+    color: var(--marquee-purple);
+    text-shadow: none;
+}
+
+.marquee-borders {
+    border: 8px var(--marquee-purple) solid;
+    margin: 0;
+}
+
+.marquee-english {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.marquee-japanese {
+    font-family: 'Noto Sans JP', sans-serif;
 }

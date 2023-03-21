@@ -7,13 +7,17 @@ import classes from "./NeoTokyo.module.css"
 class NeoTokyo extends React.Component {
     render() {
         return <div className={classes.default}>
-            <Container>
+            <Container style={{ maxWidth: "100%" }}>
                 <Row>
-                    <Col xl={3} className={classes["nav-col"]}>
-                        <NavBar />
+                    <Col xl={2}>
+                        <div className={classes["nav-col"]}>
+                            <NavBar />
+                        </div>
                     </Col>
-                    <Col xl={9} className={classes["content-col"]}>
-                        <Home />
+                    <Col xl={10} >
+                        <div className={classes["content-col"]}>
+                            <Home />
+                        </div>
                     </Col>
                 </Row>
             </Container>

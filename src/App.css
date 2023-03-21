@@ -28,6 +28,7 @@
   --neon-blue-shadow: 0px 0px 30px var(--neon-blue);
   --neon-blue-off: rgb(1, 64, 83);
   --shadow-off: none;
+  --marquee-purple: #a101ff;
 }
 
 .english {

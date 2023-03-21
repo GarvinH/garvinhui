@@ -12,9 +12,10 @@
 }
 
 .content-col {
-    padding-top: 256px;
+    padding-top: 128px;
     display: flex;
     justify-content:center;
+    margin-right: 128px;
 }
 
 @media (max-width: 1199.98px) {
