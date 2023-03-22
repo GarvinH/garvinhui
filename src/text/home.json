@@ -6,12 +6,19 @@
         },
         {
             "en": "Japan Enthusiast",
-            "jp": "日本が好きです" 
-
+            "jp": "日本が好きです"
         },
         {
             "en": "Developer",
             "jp": "ソフトウェア開発者です"
         }
-      ]
+    ],
+    "github": "https://github.com/GarvinH",
+    "linkedin": "https://www.linkedin.com/in/garvinhui/",
+    "resume": {
+        "en": "Résumé",
+        "jp": "履歴書"
+    },
+    "phone": "(647)-898-8793",
+    "email": "garvinhui@hotmail.com"
 }

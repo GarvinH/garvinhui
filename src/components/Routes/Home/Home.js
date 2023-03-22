@@ -50,16 +50,16 @@ class Home extends React.Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Résumé
+                {text.resume.en}
               </a>
             </h5>
-            <h5>(647)-898-8793</h5>
-            <h5>garvinhui@hotmail.com</h5>
+            <h5>{text.phone}</h5>
+            <h5>{text.email}</h5>
             <button className={classes.social}>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://github.com/GarvinH"
+                href={text.github}
               >
                 <img src={github} alt="github link" />
               </a>
@@ -68,7 +68,7 @@ class Home extends React.Component {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.linkedin.com/in/garvinhui/"
+                href={text.linkedin}
               >
                 <img src={linkedin} alt="linkedin link" />
               </a>

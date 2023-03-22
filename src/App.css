@@ -1,3 +1,26 @@
+:root {
+  --neon-blue: rgb(0, 195, 255);
+  --neon-blue-shadow: 0px 0px 30px var(--neon-blue);
+  --neon-blue-off: rgb(1, 64, 83);
+  --shadow-off: none;
+  --marquee-purple: #a101ff;
+  --neon-pink: #FF10F0;
+  --neon-pink-shadow: 0px 0px 30px var(--neon-pink);
+  --neon-white: #ffffff;
+  --neon-white-shadow: 0px 0px 30px var(--neon-white);
+  --neon-socials: var(--neon-white);
+  --neon-socials-shadow: var(--neon-white-shadow);
+}
+
+.neotokyo a {
+  color: var(--neon-white) !important;
+  text-shadow: var(--neon-white-shadow) !important;  
+}
+
+.neotokyo a:hover {
+  text-shadow: var(--neon-blue-shadow) !important;
+}
+
 .regular {
   text-align: center;
   margin: 0 auto;
@@ -23,13 +46,6 @@
   background-color: white !important;
 }
 
-:root {
-  --neon-blue: rgb(0, 195, 255);
-  --neon-blue-shadow: 0px 0px 30px var(--neon-blue);
-  --neon-blue-off: rgb(1, 64, 83);
-  --shadow-off: none;
-  --marquee-purple: #a101ff;
-}
 
 .english {
     font-family: 'Tilt Neon', cursive;
@@ -37,4 +53,15 @@
 
 .japanese {
     font-family: 'Kosugi Maru', sans-serif;
+}
+
+.social-button {
+  border: none;
+  background: none;
+  margin: 0 1rem;
+  padding: 0;
+}
+
+.social-button:hover {
+  cursor: default;
 }
