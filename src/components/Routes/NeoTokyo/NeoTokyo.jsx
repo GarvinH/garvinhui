@@ -6,7 +6,9 @@ import classes from "./NeoTokyo.module.css"
 
 class NeoTokyo extends React.Component {
     render() {
-        return <div className={classes.default}>
+        return <div className="neotokyo">
+
+        <div className={classes.default}>
             <Container style={{ maxWidth: "100%" }}>
                 <Row>
                     <Col xl={2}>
@@ -21,6 +23,7 @@ class NeoTokyo extends React.Component {
                     </Col>
                 </Row>
             </Container>
+        </div>
         </div>
     }
 }
