@@ -4,7 +4,7 @@ import {
   Accordion,
   Card,
 } from "react-bootstrap";
-import jobs from "./Experience.json";
+import jobs from "text/Experience.json";
 import TimedEvent from "components/regular/TimedEvent/TimedEvent";
 import { CustomToggle } from "components/regular/AccordionToggle/CustomToggle";
 

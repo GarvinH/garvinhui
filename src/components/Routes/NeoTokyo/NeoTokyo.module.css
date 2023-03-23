@@ -16,6 +16,7 @@
     display: flex;
     justify-content:center;
     margin-right: 128px;
+    flex-direction: column;
 }
 
 @media (max-width: 1199.98px) {
