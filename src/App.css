@@ -2,14 +2,51 @@
   --neon-blue: rgb(0, 195, 255);
   --neon-blue-shadow: 0px 0px 30px var(--neon-blue);
   --neon-blue-off: rgb(1, 64, 83);
-  --shadow-off: none;
-  --marquee-purple: #a101ff;
   --neon-pink: #FF10F0;
   --neon-pink-shadow: 0px 0px 30px var(--neon-pink);
   --neon-white: #ffffff;
   --neon-white-shadow: 0px 0px 30px var(--neon-white);
+  --neon-red: #ff073a;
+  --neon-red-shadow: 0px 0px 30px var(--neon-red);
+  --neon-purple: #bc13fe;
+  --neon-purple-shadow: 0px 0px 30px var(--neon-purple);
+  --neon-black: #000000;
   --neon-socials: var(--neon-white);
   --neon-socials-shadow: var(--neon-white-shadow);
+  --shadow-off: none;
+  --marquee-purple: #a101ff;
+}
+
+.blue-sign {
+  color: var(--neon-blue);
+  text-shadow: var(--neon-blue-shadow);
+  box-shadow: var(--neon-blue-shadow), inset var(--neon-blue-shadow);
+  border: 5px var(--neon-blue) solid;
+  border-radius: 5px;
+}
+
+.pink-sign {
+  color: var(--neon-pink);
+  text-shadow: var(--neon-pink-shadow);
+  box-shadow: var(--neon-pink-shadow), inset var(--neon-pink-shadow);
+  border: 5px var(--neon-pink) solid;
+  border-radius: 5px;
+}
+
+.red-sign {
+  color: var(--neon-red);
+  text-shadow: var(--neon-red-shadow);
+  box-shadow: var(--neon-red-shadow), inset var(--neon-red-shadow);
+  border: 5px var(--neon-red) solid;
+  border-radius: 5px;
+}
+
+.purple-sign {
+  color: var(--neon-purple);
+  text-shadow: var(--neon-purple-shadow);
+  box-shadow: var(--neon-purple-shadow), inset var(--neon-purple-shadow);
+  border: 5px var(--neon-purple) solid;
+  border-radius: 5px;
 }
 
 .neotokyo a {

@@ -1,0 +1,61 @@
+.heading {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 1.5rem;
+    padding: 16px 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    border: 3px rgba(18, 16, 16, 1) solid;
+    padding: 5px 5px;
+}
+
+.black-on-white {
+    color: var(--neon-black);
+    background-color: var(--neon-white);
+    box-shadow: var(--neon-white-shadow);
+    text-shadow: none;
+}
+.black-on-blue {
+    color: var(--neon-black);
+    background-color: var(--neon-blue);
+    box-shadow: var(--neon-blue-shadow);
+    text-shadow: none;
+}
+.pink-on-blue {
+    color: var(--neon-pink);
+    background-color: var(--neon-blue);
+    box-shadow: var(--neon-blue-shadow);
+    -webkit-text-stroke-color: var(--neon-black);
+    -webkit-text-stroke-width: 0.5px;
+    text-shadow: none;
+}
+.blue-on-pink {
+    color: var(--neon-blue);
+    background-color: var(--neon-pink);
+    box-shadow: var(--neon-pink-shadow);
+    -webkit-text-stroke-color: var(--neon-black);
+    -webkit-text-stroke-width: 0.5px;
+    text-shadow: none;
+}
+.white-on-red {
+    color: var(--neon-white);
+    background-color: var(--neon-red);
+    box-shadow: var(--neon-red-shadow);
+    text-shadow: none;
+}
+.black-on-pink {
+    color: var(--neon-black);
+    background-color: var(--neon-pink);
+    box-shadow: var(--neon-pink-shadow);
+    text-shadow: none;
+}
+.white-on-blue {
+    color: var(--neon-white);
+    background-color: var(--neon-blue);
+    box-shadow: var(--neon-blue-shadow);
+    text-shadow: none;
+}
