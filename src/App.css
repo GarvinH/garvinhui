@@ -18,35 +18,35 @@
 }
 
 .blue-sign {
-  color: var(--neon-blue);
-  text-shadow: var(--neon-blue-shadow);
-  box-shadow: var(--neon-blue-shadow), inset var(--neon-blue-shadow);
-  border: 5px var(--neon-blue) solid;
-  border-radius: 5px;
+  color: var(--neon-blue) !important;
+  text-shadow: var(--neon-blue-shadow) !important;
+  box-shadow: var(--neon-blue-shadow), inset var(--neon-blue-shadow) !important;
+  border: 5px var(--neon-blue) solid !important;
+  border-radius: 5px !important;
 }
 
 .pink-sign {
-  color: var(--neon-pink);
-  text-shadow: var(--neon-pink-shadow);
-  box-shadow: var(--neon-pink-shadow), inset var(--neon-pink-shadow);
-  border: 5px var(--neon-pink) solid;
-  border-radius: 5px;
+  color: var(--neon-pink) !important;
+  text-shadow: var(--neon-pink-shadow) !important;
+  box-shadow: var(--neon-pink-shadow), inset var(--neon-pink-shadow) !important;
+  border: 5px var(--neon-pink) solid !important;
+  border-radius: 5px !important;
 }
 
 .red-sign {
-  color: var(--neon-red);
-  text-shadow: var(--neon-red-shadow);
-  box-shadow: var(--neon-red-shadow), inset var(--neon-red-shadow);
-  border: 5px var(--neon-red) solid;
-  border-radius: 5px;
+  color: var(--neon-red) !important;
+  text-shadow: var(--neon-red-shadow) !important;
+  box-shadow: var(--neon-red-shadow), inset var(--neon-red-shadow) !important;
+  border: 5px var(--neon-red) solid !important;
+  border-radius: 5px !important;
 }
 
 .purple-sign {
-  color: var(--neon-purple);
-  text-shadow: var(--neon-purple-shadow);
-  box-shadow: var(--neon-purple-shadow), inset var(--neon-purple-shadow);
-  border: 5px var(--neon-purple) solid;
-  border-radius: 5px;
+  color: var(--neon-purple) !important;
+  text-shadow: var(--neon-purple-shadow) !important;
+  box-shadow: var(--neon-purple-shadow), inset var(--neon-purple-shadow) !important;
+  border: 5px var(--neon-purple) solid !important;
+  border-radius: 5px !important;
 }
 
 .neotokyo a {

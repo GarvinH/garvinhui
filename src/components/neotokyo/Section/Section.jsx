@@ -1,5 +1,5 @@
-import React from "react"
-import { Col, Row } from "react-bootstrap"
+import React, { Fragment } from "react"
+import { Accordion, AccordionToggle, Card, Col, Row } from "react-bootstrap"
 import classes from "./Section.module.css"
 import classNames from "classnames";
 
@@ -12,7 +12,7 @@ function getRandomInt(max) {
 
 class Section extends React.Component {
     render() {
-        const { children } = this.props;
+        const { children, extraContent, extraContentHeader } = this.props;
 
         const headingColor = signColors[getRandomInt(signColors.length)];
         const contentColor = contentColors[getRandomInt(contentColors.length)];
@@ -37,6 +37,24 @@ class Section extends React.Component {
                         </div>
 
                     )}
+                    {extraContent && <Accordion>
+                        <Card className={classNames(headingColor, classes["extra-card"])}>
+                            <AccordionToggle as={Card.Header} eventKey="0">
+                                <h4 className={classes["extra-header"]}>
+                                    {extraContentHeader}
+                                </h4>
+                            </AccordionToggle>
+                            <Accordion.Collapse eventKey="0">
+                                <Fragment>
+                                    {extraContent.map((child, ix) =>
+                                        <div style={ix != 0 ? { marginTop: 32 } : {}} key={ix} className={classNames(classes.content, contentColor)}>
+                                            {child}
+                                        </div>
+                                    )}
+                                </Fragment>
+                            </Accordion.Collapse>
+                        </Card>
+                    </Accordion>}
                 </Col>
             </Row>
         </div>

@@ -30,7 +30,7 @@ const Experience = () => (
       <Accordion>
         <Card>
           <Card.Header>
-            <CustomToggle eventKey="0">Non-Technical Experience</CustomToggle>
+            <CustomToggle eventKey="0">{jobs["non-technical"].en}</CustomToggle>
           </Card.Header>
           <Accordion.Collapse eventKey="0">
             <Fragment>

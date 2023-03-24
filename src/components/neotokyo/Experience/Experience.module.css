@@ -1,3 +1,9 @@
-.no-bottom-margin {
+.experience-neotokyo {
     margin-bottom: 0 !important;
+}
+
+@media (max-width: 1199.98px) {
+    .experience-neotokyo>h2 {
+        font-size: 2rem !important;
+    }
 }
