@@ -10,7 +10,7 @@
 
 .content {
     border: 3px rgba(18, 16, 16, 1) solid;
-    padding: 5px 5px;
+    padding: 16px 16px;
 }
 
 .black-on-white {
@@ -19,12 +19,14 @@
     box-shadow: var(--neon-white-shadow);
     text-shadow: none;
 }
+
 .black-on-blue {
     color: var(--neon-black);
     background-color: var(--neon-blue);
     box-shadow: var(--neon-blue-shadow);
     text-shadow: none;
 }
+
 .pink-on-blue {
     color: var(--neon-pink);
     background-color: var(--neon-blue);
@@ -33,6 +35,7 @@
     -webkit-text-stroke-width: 0.5px;
     text-shadow: none;
 }
+
 .blue-on-pink {
     color: var(--neon-blue);
     background-color: var(--neon-pink);
@@ -41,21 +44,45 @@
     -webkit-text-stroke-width: 0.5px;
     text-shadow: none;
 }
+
 .white-on-red {
     color: var(--neon-white);
     background-color: var(--neon-red);
     box-shadow: var(--neon-red-shadow);
     text-shadow: none;
 }
+
 .black-on-pink {
     color: var(--neon-black);
     background-color: var(--neon-pink);
     box-shadow: var(--neon-pink-shadow);
     text-shadow: none;
 }
+
 .white-on-blue {
     color: var(--neon-white);
     background-color: var(--neon-blue);
     box-shadow: var(--neon-blue-shadow);
     text-shadow: none;
+}
+
+.extra-card {
+    background: none;
+    margin-top: 20px;
+    padding: 10px
+}
+
+.extra-header {
+    text-align: center;
+}
+
+.extra-header:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media (max-width: 1199.98px) {
+    .extra-header {
+        text-align: left;
+    }
 }

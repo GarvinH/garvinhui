@@ -87,8 +87,12 @@
     },
     {
       "institution": "Wendy's",
-      "title": "Customer Service Representative",
+      "title": "Customer Service Rep.",
       "duration": "December 2017 — July 2019"
     }
-  ]
+  ],
+  "non-technical": {
+    "en": "Non-Technical Experience",
+    "jp": "他の職歴"
+  }
 }
