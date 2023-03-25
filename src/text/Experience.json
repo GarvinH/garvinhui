@@ -91,6 +91,10 @@
       "duration": "December 2017 — July 2019"
     }
   ],
+  "header": {
+    "en": "Experience",
+    "jp": "職歴"
+  },
   "non-technical": {
     "en": "Non-Technical Experience",
     "jp": "他の職歴"

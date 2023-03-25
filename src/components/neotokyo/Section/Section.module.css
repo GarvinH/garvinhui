@@ -67,7 +67,7 @@
 }
 
 .extra-card {
-    background: none;
+    background: none !important;
     margin-top: 20px;
     padding: 10px
 }

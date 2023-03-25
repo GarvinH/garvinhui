@@ -12,7 +12,7 @@ function getRandomInt(max) {
 
 class Section extends React.Component {
     render() {
-        const { children, extraContent, extraContentHeader } = this.props;
+        const { sectionHeader, children, extraContent, extraContentHeader } = this.props;
 
         const headingColor = signColors[getRandomInt(signColors.length)];
         const contentColor = contentColors[getRandomInt(contentColors.length)];
@@ -22,11 +22,11 @@ class Section extends React.Component {
                 <Col xs={3} md={1}>
                     <div className={classNames(classes.heading, headingColor)}>
                         <span className="english" style={{ letterSpacing: -8 }}>
-                            EXPERIENCE
+                            {sectionHeader.en.toUpperCase()}
                         </span>
                         {"　"}
                         <span className="japanese">
-                            職歴
+                            {sectionHeader.jp}
                         </span>
                     </div>
                 </Col>
@@ -37,16 +37,16 @@ class Section extends React.Component {
                         </div>
 
                     )}
-                    {extraContent && <Accordion>
+                    {extraContent && extraContent.map((content, ix) => <Accordion key={ix}>
                         <Card className={classNames(headingColor, classes["extra-card"])}>
                             <AccordionToggle as={Card.Header} eventKey="0">
                                 <h4 className={classes["extra-header"]}>
-                                    {extraContentHeader}
+                                    {extraContentHeader[ix]}
                                 </h4>
                             </AccordionToggle>
                             <Accordion.Collapse eventKey="0">
                                 <Fragment>
-                                    {extraContent.map((child, ix) =>
+                                    {content.map((child, ix) =>
                                         <div style={ix != 0 ? { marginTop: 32 } : {}} key={ix} className={classNames(classes.content, contentColor)}>
                                             {child}
                                         </div>
@@ -54,7 +54,7 @@ class Section extends React.Component {
                                 </Fragment>
                             </Accordion.Collapse>
                         </Card>
-                    </Accordion>}
+                    </Accordion>)}
                 </Col>
             </Row>
         </div>
