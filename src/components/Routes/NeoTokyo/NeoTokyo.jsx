@@ -20,6 +20,7 @@ class NeoTokyo extends React.Component {
                             <div className={classes["content-col"]}>
                                 <Home />
                                 <Experience />
+                                <Experience />
                             </div>
                         </Col>
                     </Row>
