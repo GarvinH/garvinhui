@@ -16,7 +16,7 @@ const Experience = () => (
     <NavBar />
     <Jumbotron>
       <h1 style={{ margin: "2rem 0 5rem" }} className="heading">
-        Experience
+        {jobs.header.en} 
       </h1>
       {jobs.required.map((job) => (
         <TimedEvent
