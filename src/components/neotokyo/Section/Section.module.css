@@ -68,21 +68,15 @@
 
 .extra-card {
     background: none !important;
-    margin-top: 20px;
-    padding: 10px
+    margin: 0;
 }
 
-.extra-header {
-    text-align: center;
-}
-
-.extra-header:hover {
-    text-decoration: underline;
+.extra-card>div:first-child:focus,
+.extra-card>div:first-child:hover {
     cursor: pointer;
 }
 
-@media (max-width: 1199.98px) {
-    .extra-header {
-        text-align: left;
-    }
+.extra-card>div:first-child:focus .extra-header,
+.extra-card>div:first-child:hover .extra-header {
+    text-decoration: underline;
 }
