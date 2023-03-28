@@ -8,6 +8,7 @@ class Experience extends React.Component {
     render() {
         return <div style={{ marginTop: 32 }}>
             <Section
+                id="experience"
                 sectionHeader={jobs.header}
                 extraContent={[jobs.optional.map((job) => (
                     <TimedEvent

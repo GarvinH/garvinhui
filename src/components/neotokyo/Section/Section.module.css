@@ -80,3 +80,7 @@
 .extra-card>div:first-child:hover .extra-header {
     text-decoration: underline;
 }
+
+.sticky-active {
+    top: 64px
+}
