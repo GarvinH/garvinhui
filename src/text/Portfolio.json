@@ -1,0 +1,212 @@
+{
+  "title": {
+    "en": "Projects",
+    "jp": "プロジェクト"
+  },
+  "mandatory": 
+    {
+      "heading": "Personal Projects",
+      "projects": [
+        {
+          "title": "This Website",
+          "img": "assets/garvinhui-website.png",
+          "content": {
+            "tech": [
+              "<strong>ReactJS - JavaScript</strong>",
+              "Bootstrap"
+            ],
+            "links": [
+              {
+                "text": "GitHub",
+                "href": "https://github.com/GarvinH/garvinhui"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Memo.io",
+          "img": "assets/memo-io.png",
+          "content": {
+            "desc": "Memo.io is a web app for writing notes online. Creating an account allows for your notes to be stored. These notes are encrypted to ensure privacy. (Website no longer works as Heroku Free tier was removed)",
+            "tech": [
+              "<strong>ReactJS - JavaScript</strong>",
+              "<strong>CSS</strong>",
+              "<strong>ExpressJS</strong>",
+              "<strong>Redux</strong>",
+              "<strong>MongoDB</strong>",
+              "<strong>Mongoose</strong>",
+              "Heroku",
+              "PassportJS",
+              "aes256"
+            ],
+            "links": [
+              {
+                "text": "GitHub",
+                "href": "https://github.com/GarvinH/Memo-io"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Forecast.io",
+          "img": "assets/forecast-io.png",
+          "content": {
+            "desc": "Forecast.io is a web app for determining the weather. It uses the OpenWeatherAPI to provide the data. (Website no longer works as Heroku Free tier was removed)",
+            "tech": [
+              "<strong>ReactJS - TypeScript</strong>",
+              "Heroku",
+              "Bootstrap",
+              "OpenWeatherAPI"
+            ],
+            "links": [
+              {
+                "text": "GitHub",
+                "href": "https://github.com/GarvinH/ForecastIO"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Connect 4",
+          "img": "assets/Connect4.png",
+          "imgStyle": {
+            "maxHeight": "10rem",
+            "width": "auto",
+            "margin": "auto"
+          },
+          "content": {
+            "desc": "1. A 2D game of multiplayer Connect 4 over LAN. Built with Godot for the purpose of learning basic networking concepts.\n2. A 2D game of multiplayer Connect 4 on the same computer. Built to learn C++.",
+            "tech": [
+              "<strong>Godot</strong>",
+              "<strong>Networking</strong>",
+              "<strong>C++</strong>",
+              "<strong>SFML (C++ multimedia library used for graphics)</strong>"
+            ],
+            "links": [
+              {
+                "text": "GitHub (Godot, LAN Multiplayer)",
+                "href": "https://github.com/GarvinH/Godot-4-in-a-row"
+              },
+              {
+                "text": "GitHub (C++)",
+                "href": "https://github.com/GarvinH/Cpp-Connect-4"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ,
+  "optional": [
+    {
+      "heading": "School Projects",
+      "projects": [
+        {
+          "title": "eAnnotate",
+          "img": "assets/eAnnotate.png",
+          "content": {
+            "desc": "eAnnotate is a local note-taking app built using ElectronJS. This was built for course GNG 2101 — Introduction to Product Development and Management for Engineers and Computer Scientists.",
+            "tech": [
+              "<strong>ReactJS</strong>",
+              "Bootstrap",
+              "ElectronJS"
+            ],
+            "links": [
+              {
+                "text": "GitHub",
+                "href": "https://github.com/GarvinH/smart-annotation"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Service Novigrad",
+          "img": "assets/novigrad.png",
+          "imgStyle": {
+            "maxHeight": "10rem",
+            "width": "auto",
+            "margin": "auto"
+          },
+          "content": {
+            "desc": "Service Novigrad is an android application used by a fictional province (a similar but simplified version of Service Ontario). This was built for SEG 2105 — Introduction to Software Engineering.",
+            "tech": [
+              "<strong>Android</strong>",
+              "<strong>Java</strong>",
+              "<strong>Firebase</strong>",
+              "<strong>JUnit</strong>"
+            ],
+            "links": [
+              {
+                "text": "GitHub",
+                "href": "https://github.com/SEG2105-uottawa/Service-Novigrad"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Easy Japanese",
+          "img": "assets/easyjapanese.png",
+          "imgStyle": {
+            "maxHeight": "10rem",
+            "width": "auto",
+            "margin": "auto"
+          },
+          "content": {
+            "desc": "Easy Japanese is an android application which emulates what a Japanese learning app might look like. This was built for SEG 3125 — Analysis and Design of User Interfaces.",
+            "tech": [
+              "<strong>Android</strong>",
+              "<strong>React Native</strong>",
+              "<strong>TypeScript</strong>"
+            ],
+            "links": [
+              {
+                "text": "GitHub",
+                "href": "https://github.com/GarvinH/easy-japanese"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "heading": "Smaller Side Projects",
+      "projects": [
+        {
+          "title": "Inventory Tracker",
+          "img": "assets/inventory_tracker.png",
+          "content": {
+            "desc": "A simple CRUD application that supports CSV exporting. Built to learn Ruby and Ruby on Rails",
+            "tech": [
+              "<strong>Ruby</strong>",
+              "<strong>Ruby on Rails</strong>"
+            ],
+            "links": [
+              {
+                "text": "GitHub",
+                "href": "https://github.com/GarvinH/inventory-tracker"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Spacestagram",
+          "img": "assets/spacestagram.png",
+          "content": {
+            "desc": "A react application which gets data from the NASA APOD API to display it in a post format while allowing users to like posts and select a time range to view from.",
+            "tech": [
+              "<strong>React</strong>",
+              "<strong>TypeScript</strong>",
+              "<strong>ExpressJS</strong>"
+            ],
+            "links": [
+              {
+                "text": "GitHub",
+                "href": "https://github.com/GarvinH/spacestagram"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -4,7 +4,7 @@ import { Jumbotron, Row, Accordion, Card } from "react-bootstrap";
 import Project from "./Project/Project";
 import { CustomToggle } from "components/regular/AccordionToggle/CustomToggle";
 
-import projects from "./Portfolio.json";
+import projects from "text/Portfolio.json";
 import NavBar from "components/regular/NavBar/NavBar";
 
 const RenderProject = (project_category) => (
@@ -33,24 +33,22 @@ const Portfolio = () => (
   <div className="regular">
     <NavBar />
     <Jumbotron>
-      {projects.map((project_category) =>
-        !project_category.accordion ? (
-          <RenderProject {...project_category} />
-        ) : (
-          <Accordion>
-            <Card>
-              <Card.Header>
-                <CustomToggle eventKey="0">
-                  {project_category.accordion}
-                </CustomToggle>
-              </Card.Header>
-              <Accordion.Collapse eventKey="0">
-                <RenderProject {...project_category} />
-              </Accordion.Collapse>
-            </Card>
-          </Accordion>
-        )
-      )}
+      <RenderProject {...projects.mandatory} />
+      {projects.optional.map(project_category =>
+        <Accordion>
+          <Card>
+            <Card.Header>
+              <CustomToggle eventKey="0">
+                {project_category.heading}
+              </CustomToggle>
+            </Card.Header>
+            <Accordion.Collapse eventKey="0">
+              <RenderProject {...project_category} />
+            </Accordion.Collapse>
+          </Card>
+        </Accordion>
+      )
+      }
     </Jumbotron>
   </div>
 );

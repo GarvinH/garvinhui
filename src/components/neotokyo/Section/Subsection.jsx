@@ -8,7 +8,11 @@ class Subsection extends React.Component {
     }
 
     handleClick = () => {
-        this.setState((prevState) => ({ isOpen: !prevState.isOpen }), () => { setTimeout(() => { window.scrollBy(0, 1); window.scrollBy(0, -1) }, 300) })
+        this.setState((prevState) => ({ isOpen: !prevState.isOpen }), () => {
+            setTimeout(() => {
+                this.props.updateSticky();
+            }, 300)
+        })
     }
 
     render() {

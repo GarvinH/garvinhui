@@ -1,6 +1,7 @@
 import Experience from "components/neotokyo/Experience/Experience";
 import Home from "components/neotokyo/Home/Home";
 import NavBar from "components/neotokyo/NavBar/NavBar";
+import Portfolio from "components/neotokyo/Portfolio/Portfolio";
 import React from "react"
 import { Col, Container, Row } from "react-bootstrap";
 import classes from "./NeoTokyo.module.css"
@@ -20,7 +21,7 @@ class NeoTokyo extends React.Component {
                             <div className={classes["content-col"]}>
                                 <Home />
                                 <Experience />
-                                <Experience />
+                                <Portfolio />
                             </div>
                         </Col>
                     </Row>

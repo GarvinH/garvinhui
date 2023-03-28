@@ -2,6 +2,7 @@
     background-color: #1e002b;
     color: var(--neon-blue);
     text-shadow: var(--neon-blue-shadow);
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .nav-col {
