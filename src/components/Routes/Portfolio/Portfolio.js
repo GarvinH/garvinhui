@@ -11,7 +11,7 @@ const RenderProject = (project_category) => (
   <Fragment>
     {project_category.heading ? (
       <h1 style={{ margin: "2rem 0" }} className="heading">
-        {project_category.heading}
+        {project_category.heading.en}
       </h1>
     ) : (
       <div style={{ marginTop: "5rem" }} />
