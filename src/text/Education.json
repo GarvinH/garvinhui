@@ -1,11 +1,15 @@
-[
-  {
+{
+  "header": {
+    "en": "Education",
+    "jp": "学歴"
+  },
+  "academia": {
     "title": "Education",
     "educations": [
       {
         "institution": "University of Ottawa",
         "title": "Bachelor of Applied Science, Software Engineering",
-        "notes": "<mark>cGPA: 9.9 / 10<br>GPA: 3.98 / 4</mark>",
+        "notes": "<strong>cGPA: 9.9 / 10<br>GPA: 3.98 / 4</strong>",
         "descs": [
           {
             "title": "Relevant courses:",
@@ -28,8 +32,11 @@
       }
     ]
   },
-  {
-    "title": "Certifications",
+  "certificates": {
+    "title": {
+      "en": "Certifications",
+      "jp": "検定"
+    },
     "educations": [
       {
         "institution": "Deep Learning Specialization",
@@ -38,7 +45,11 @@
       {
         "institution": "Machine Learning",
         "title": "Stanford Online"
+      },
+      {
+        "institution": "N3",
+        "title": "Japanese Language Proficiency Test"
       }
     ]
   }
-]
+}

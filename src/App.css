@@ -63,6 +63,16 @@
   text-shadow: var(--neon-blue-shadow-small) !important;
 }
 
+.neotokyo-timed-event {
+    margin-bottom: 0 !important;
+}
+
+@media (max-width: 1199.98px) {
+    .neotokyo-timed-event>h2 {
+        font-size: 2rem !important;
+    }
+}
+
 .regular {
   text-align: center;
   margin: 0 auto;

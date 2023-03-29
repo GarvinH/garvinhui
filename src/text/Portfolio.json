@@ -5,7 +5,10 @@
   },
   "mandatory": 
     {
-      "heading": "Personal Projects",
+      "heading": {
+        "en": "Personal Projects",
+        "jp": "プロジェクト"
+      },
       "projects": [
         {
           "title": "This Website",
@@ -99,7 +102,10 @@
   ,
   "optional": [
     {
-      "heading": "School Projects",
+      "heading": {
+        "en": "School Projects",
+        "jp": "宿題"
+      },
       "projects": [
         {
           "title": "eAnnotate",
@@ -169,7 +175,10 @@
       ]
     },
     {
-      "heading": "Smaller Side Projects",
+      "heading": {
+        "en": "Smaller Side Projects",
+        "jp": "他の小さなプロジェクト"
+      },
       "projects": [
         {
           "title": "Inventory Tracker",

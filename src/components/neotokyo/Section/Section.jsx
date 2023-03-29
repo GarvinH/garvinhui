@@ -30,7 +30,7 @@ class Section extends React.Component {
         const headingColor = signColors[getRandomInt(signColors.length)];
         const contentColor = contentColors[getRandomInt(contentColors.length)];
 
-        return <div id={id} style={{position: "relative"}}>
+        return <div id={id} style={{position: "relative", marginTop: 32}}>
             <div id={`${id}1`} style={{position: "absolute", top: -stickyMargin, height: stickyMargin}}/>
             <Row style={{ flexDirection: "row" }}>
                 <Col xs={3} md={1}>
