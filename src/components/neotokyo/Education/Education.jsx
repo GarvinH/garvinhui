@@ -9,7 +9,7 @@ class Education extends React.Component {
             id="educations"
             sectionHeader={educations.header}
             extraContent={[educations.certificates.educations.map(education => <TimedEvent
-                className="neotokyo-timed-event"
+                className="neotokyo-timed-event-extra"
                 institution={education.institution}
                 notes={education.notes}
                 title={education.title}

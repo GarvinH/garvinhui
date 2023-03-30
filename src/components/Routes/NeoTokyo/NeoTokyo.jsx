@@ -1,6 +1,7 @@
 import Education from "components/neotokyo/Education/Education";
 import Experience from "components/neotokyo/Experience/Experience";
 import Home from "components/neotokyo/Home/Home";
+import Interests from "components/neotokyo/Interests/Interests";
 import NavBar from "components/neotokyo/NavBar/NavBar";
 import Portfolio from "components/neotokyo/Portfolio/Portfolio";
 import React from "react"
@@ -24,6 +25,7 @@ class NeoTokyo extends React.Component {
                                 <Experience />
                                 <Portfolio />
                                 <Education />
+                                <Interests />
                             </div>
                         </Col>
                     </Row>

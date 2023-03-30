@@ -63,14 +63,19 @@
   text-shadow: var(--neon-blue-shadow-small) !important;
 }
 
-.neotokyo-timed-event {
-    margin-bottom: 0 !important;
+.neotokyo-timed-event,
+.neotokyo-timed-event-extra {
+  margin-bottom: 0 !important;
 }
 
-@media (max-width: 1199.98px) {
-    .neotokyo-timed-event>h2 {
-        font-size: 2rem !important;
-    }
+@media (max-width: 575.98px) {
+  .neotokyo-timed-event h2 {
+    font-size: 2rem !important;
+  }
+
+  .neotokyo-timed-event-extra h2 {
+    font-size: 1.15rem !important;
+  }
 }
 
 .regular {
