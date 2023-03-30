@@ -10,7 +10,7 @@ class Experience extends React.Component {
             sectionHeader={jobs.header}
             extraContent={[jobs.optional.map((job) => (
                 <TimedEvent
-                    className="neotokyo-timed-event"
+                    className="neotokyo-timed-event-extra"
                     institution={job.institution}
                     title={job.title}
                     descs={job.descs}

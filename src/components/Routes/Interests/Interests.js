@@ -1,14 +1,14 @@
 import NavBar from "components/regular/NavBar/NavBar";
 import React, { Fragment } from "react";
 import { Jumbotron, Container } from "react-bootstrap";
-import interests from "./Interests.json";
+import interests from "text/Interests.json";
 
 const Interests = () => (
   <div className="regular">
     <NavBar />
     <Jumbotron>
       <h1 style={{ margin: "2rem 0 5rem" }} className="heading">
-        Interests
+        {interests.header.en}
       </h1>
       <Container
         style={{
@@ -21,7 +21,7 @@ const Interests = () => (
         align="left"
       >
         <div>
-          {interests.map((section) => (
+          {interests.interests.map((section) => (
             <Fragment>
               <p>{section.header}</p>
               <ul>
