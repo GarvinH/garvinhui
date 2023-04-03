@@ -1,11 +1,11 @@
 .default {
-    background-color: #1e002b;
+    background-color: var(--background-color);
     color: var(--neon-blue);
     text-shadow: var(--neon-blue-shadow);
     font-family: 'Noto Sans', sans-serif;
 }
 
-.nav-col {
+.nav-col-div {
     justify-content: center;
     align-items: center;
     display: flex;
@@ -21,13 +21,18 @@
 }
 
 @media (max-width: 1199.98px) {
+    .nav-col-div {
+        height: 48px;
+    }
+
     .nav-col {
-        height: auto;
-        justify-content: start;
+        position: fixed !important;
+        z-index: 100;
+        background-color: var(--background-color);
     }
     
     .content-col {
-        padding-top: 16px;
+        padding-top: 72px;
         margin-right: auto;
     }
 }

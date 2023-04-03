@@ -39,7 +39,7 @@ const Portfolio = () => (
           <Card>
             <Card.Header>
               <CustomToggle eventKey="0">
-                {project_category.heading}
+                {project_category.heading.en}
               </CustomToggle>
             </Card.Header>
             <Accordion.Collapse eventKey="0">

@@ -11,9 +11,12 @@ const Project = ({ title, content, classNames }) => <div className={classNames}>
 
 class Portfolio extends React.Component {
     render() {
+        const { reference } = this.props;
+
         return <Section
+            reference={reference}
             id="portfolio"
-            sectionHeader={portfolio.title}
+            sectionHeader={portfolio.header}
             extraContent={portfolio.optional.map((project_category) => project_category.projects.map((project) => <Project classNames={classes.header} {...project} />))}
             extraContentHeader={portfolio.optional.map((project_category) => `${project_category.heading.en}・${project_category.heading.jp}`)}>
             {portfolio.mandatory.projects.map((project) => <Project {...project} />)}

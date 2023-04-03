@@ -9,6 +9,7 @@ const japaneseName = ["ガ", "ー", "ビ", "ン ", "フ", "イ"];
 
 class Home extends React.Component {
     render() {
+
         return <div style={{ width: "100%", height: "100%" }}>
             <div className={classes["name-sign"]}>
                 <h1 className={`english ${classes["english-title"]}`}>Garvin H<span className={classes.flicker}>ui</span></h1>
