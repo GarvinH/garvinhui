@@ -5,7 +5,10 @@ import TimedEvent from "components/regular/TimedEvent/TimedEvent";
 
 class Experience extends React.Component {
     render() {
+        const { reference } = this.props;
+
         return <Section
+            reference={reference}
             id="experience"
             sectionHeader={jobs.header}
             extraContent={[jobs.optional.map((job) => (

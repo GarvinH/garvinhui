@@ -9,23 +9,36 @@ import { Col, Container, Row } from "react-bootstrap";
 import classes from "./NeoTokyo.module.css"
 
 class NeoTokyo extends React.Component {
+    homeRef = React.createRef();
+    experienceRef = React.createRef();
+    portfolioRef = React.createRef();
+    educationRef = React.createRef();
+    interestRef = React.createRef();
+
     render() {
         return <div className="neotokyo">
             <div className={classes.default}>
                 <Container style={{ maxWidth: "100%" }}>
                     <Row>
-                        <Col xl={2}>
-                            <div className={classes["nav-col"]}>
-                                <NavBar />
+                        <Col xl={3} className={classes["nav-col"]}>
+                            <div className={classes["nav-col-div"]}>
+                                <NavBar
+                                    homeRef={this.homeRef}
+                                    experienceRef={this.experienceRef}
+                                    portfolioRef={this.portfolioRef}
+                                    educationRef={this.educationRef}
+                                    interestRef={this.interestRef}
+                                />
+
                             </div>
                         </Col>
-                        <Col xl={10} >
-                            <div className={classes["content-col"]}>
+                        <Col xl={9} >
+                            <div className={classes["content-col"]} ref={this.homeRef}>
                                 <Home />
-                                <Experience />
-                                <Portfolio />
-                                <Education />
-                                <Interests />
+                                <Experience reference={this.experienceRef} />
+                                <Portfolio reference={this.portfolioRef} />
+                                <Education reference={this.educationRef} />
+                                <Interests reference={this.interestRef} />
                             </div>
                         </Col>
                     </Row>

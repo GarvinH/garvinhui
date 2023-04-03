@@ -4,7 +4,10 @@ import interests from "text/Interests.json"
 
 class Interests extends React.Component {
     render() {
+        const { reference } = this.props;
+        
         return <Section
+            reference={reference}
             id="interests"
             sectionHeader={interests.header}>
             {interests.interests.map((section, ix) => (

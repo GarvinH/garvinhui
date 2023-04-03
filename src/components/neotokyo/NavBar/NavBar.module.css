@@ -1,9 +1,30 @@
 .nav {
     position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.nav button {
+    background: none;
+    color: inherit;
+    border: none;
+    font-size: 1.25rem;
+    text-shadow: var(--neon-blue-shadow-small);
+    flex-shrink: 0;
+}
+
+.nav button:hover, :focus-visible {
+    border: 2px solid var(--neon-blue) !important;
+    border-radius: 5px;
+    box-shadow: var(--neon-blue-shadow-nav), inset var(--neon-blue-shadow-nav);
 }
 
 @media (max-width: 1199.98px) {
     .nav {
-        position: initial;
+        position: inherit;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: auto;
     }
 }

@@ -25,13 +25,13 @@ class Section extends React.Component {
     }
 
     render() {
-        const { id, sectionHeader, children, extraContent, extraContentHeader } = this.props;
+        const { reference, id, sectionHeader, children, extraContent, extraContentHeader } = this.props;
 
         const headingColor = signColors[getRandomInt(signColors.length)];
         const contentColor = contentColors[getRandomInt(contentColors.length)];
 
         return <div id={id} style={{position: "relative", marginTop: 32}}>
-            <div id={`${id}1`} style={{position: "absolute", top: -stickyMargin, height: stickyMargin}}/>
+            <div id={`${id}1`} ref={reference} style={{position: "absolute", top: -stickyMargin, height: stickyMargin}}/>
             <Row style={{ flexDirection: "row" }}>
                 <Col xs={3} md={1}>
                     <Sticky top={`#${id}1`} bottomBoundary={`#${id}`} ref={this.stickyRef}>
@@ -48,7 +48,7 @@ class Section extends React.Component {
                 </Col>
                 <Col xs={9} md={11} style={{ paddingLeft: 0 }}>
                     {children.map((child, ix) =>
-                        <div style={ix != 0 ? { marginTop: 32 } : {}} key={ix} className={classNames(classes.content, contentColor)}>
+                        <div style={ix !== 0 ? { marginTop: 32 } : {}} key={ix} className={classNames(classes.content, contentColor)}>
                             {child}
                         </div>
 
@@ -56,7 +56,7 @@ class Section extends React.Component {
                     {extraContent && extraContent.map((content, ix) => <Subsection updateSticky={this.updateSticky} key={ix} header={extraContentHeader[ix]} headingColor={headingColor}>
                         <Fragment>
                             {content.map((child, ix) =>
-                                <div style={ix != 0 ? { marginTop: 32 } : {}} key={ix} className={classNames(classes.content, contentColor)}>
+                                <div style={ix !== 0 ? { marginTop: 32 } : {}} key={ix} className={classNames(classes.content, contentColor)}>
                                     {child}
                                 </div>
                             )}
