@@ -3,3 +3,9 @@
         font-size: 1.4rem;
     }
 }
+
+@media (max-width: 359.98px) {
+    .header h2{
+        font-size: 1.2rem;
+    }
+}

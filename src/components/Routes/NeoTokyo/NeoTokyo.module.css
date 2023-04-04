@@ -5,7 +5,7 @@
     font-family: 'Noto Sans', sans-serif;
 }
 
-.nav-col-div {
+.nav-col {
     justify-content: center;
     align-items: center;
     display: flex;
@@ -15,27 +15,19 @@
 .content-col {
     padding-top: 128px;
     display: flex;
-    justify-content:center;
-    margin-right: 128px;
+    justify-content: center;
+    width: 90%;
     flex-direction: column;
 }
 
 @media (max-width: 1199.98px) {
-    .nav-col-div {
-        height: 48px;
-    }
-
     .nav-col {
-        position: fixed !important;
+        padding: 0 !important;
         z-index: 100;
-        background-color: var(--background-color);
+        height: auto;
     }
-    
-    .content-col {
-        padding-top: 72px;
-        margin-right: auto;
-    }
-}
 
-h1, h2, h3, p {
+    .content-col {
+        padding-top: 86px;
+    }
 }
