@@ -3,10 +3,18 @@ import Section from "../Section/Section"
 import portfolio from "text/Portfolio.json"
 import classes from "./Portfolio.module.css"
 
-const Project = ({ title, content, classNames }) => <div className={classNames}>
-    <h2>{title}</h2>
-    <p dangerouslySetInnerHTML={{ __html: content.tech.join(", ") }} />
-    {content.desc && <p>{content.desc}</p>}
+const Project = ({ title, content, classNames }) => <div>
+    <div className={classNames}>
+        <h2>{title}</h2>
+        <p dangerouslySetInnerHTML={{ __html: content.tech.join(", ") }} />
+        {content.desc && <p>{content.desc}</p>}
+    </div>
+    <div className={classes.links}>
+        {content.links.map((link, ix) => <span>
+            {ix > 0 && "・"}
+            <a key={ix} href={link.href}>{link.text}</a>
+        </span>)}
+    </div>
 </div>
 
 class Portfolio extends React.Component {
