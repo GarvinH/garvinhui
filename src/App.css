@@ -4,7 +4,7 @@
   --neon-blue-shadow: 0px 0px 30px var(--neon-blue);
   --neon-blue-shadow-small: 0px 0px 15px var(--neon-blue);
   --neon-blue-off: rgb(1, 64, 83);
-  --neon-pink: #FF10F0;
+  --neon-pink: #FF3DF2;
   --neon-pink-shadow: 0px 0px 30px var(--neon-pink);
   --neon-pink-shadow-small: 0px 0px 15px var(--neon-pink);
   --neon-white: #ffffff;
@@ -14,7 +14,7 @@
   --neon-red: #ff073a;
   --neon-red-shadow: 0px 0px 30px var(--neon-red);
   --neon-red-shadow-small: 0px 0px 15px var(--neon-red);
-  --neon-purple: #bc13fe;
+  --neon-purple: #c32aff;
   --neon-purple-shadow: 0px 0px 30px var(--neon-purple);
   --neon-purple-shadow-small: 0px 0px 15px var(--neon-purple);
   --neon-black: #000000;

@@ -33,7 +33,7 @@ class Section extends React.Component {
         return <div id={id} style={{position: "relative", marginTop: 32}}>
             <div id={`${id}1`} ref={reference} style={{position: "absolute", top: -stickyMargin, height: stickyMargin}}/>
             <Row style={{ flexDirection: "row" }}>
-                <Col xs={3} md={1}>
+                <Col xs={3} md={2} lg={1}>
                     <Sticky top={`#${id}1`} bottomBoundary={`#${id}`} ref={this.stickyRef}>
                         <div className={classNames(classes.heading, headingColor)}>
                             <span className="english" style={{ letterSpacing: -8 }}>
@@ -46,7 +46,7 @@ class Section extends React.Component {
                         </div>
                     </Sticky>
                 </Col>
-                <Col xs={9} md={11} style={{ paddingLeft: 0 }}>
+                <Col xs={9} md={10} lg={11} style={{ paddingLeft: 0 }}>
                     {children.map((child, ix) =>
                         <div style={ix !== 0 ? { marginTop: 32 } : {}} key={ix} className={classNames(classes.content, contentColor)}>
                             {child}
