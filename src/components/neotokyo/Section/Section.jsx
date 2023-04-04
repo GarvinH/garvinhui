@@ -7,7 +7,7 @@ import Sticky from "react-stickynode";
 
 const signColors = ["blue-sign", "red-sign", "pink-sign", "purple-sign"];
 const contentColors = [classes["black-on-white"], classes["black-on-blue"], classes["black-on-pink"]];
-const stickyMargin = 64;
+const stickyMargin = 70;
 
 function getRandomInt(max) {
     return Math.floor(Math.random() * max)

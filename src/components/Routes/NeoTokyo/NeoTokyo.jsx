@@ -21,18 +21,15 @@ class NeoTokyo extends React.Component {
                 <Container style={{ maxWidth: "100%" }}>
                     <Row>
                         <Col xl={3} className={classes["nav-col"]}>
-                            <div className={classes["nav-col-div"]}>
-                                <NavBar
-                                    homeRef={this.homeRef}
-                                    experienceRef={this.experienceRef}
-                                    portfolioRef={this.portfolioRef}
-                                    educationRef={this.educationRef}
-                                    interestRef={this.interestRef}
-                                />
-
-                            </div>
+                            <NavBar
+                                homeRef={this.homeRef}
+                                experienceRef={this.experienceRef}
+                                portfolioRef={this.portfolioRef}
+                                educationRef={this.educationRef}
+                                interestRef={this.interestRef}
+                            />
                         </Col>
-                        <Col xl={9} >
+                        <Col xl={9} style={{ display: "flex", justifyContent: "center" }}>
                             <div className={classes["content-col"]} ref={this.homeRef}>
                                 <Home />
                                 <Experience reference={this.experienceRef} />

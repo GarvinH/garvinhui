@@ -279,7 +279,7 @@
     }
 
     .japanese-title {
-        font-size: 6rem;
+        font-size: 5.5rem;
     }
 
     .name-sign {
@@ -309,5 +309,15 @@
     }
     .japanese-title {
         font-size: 2rem;
+    }
+}
+
+@media (max-width: 359.98px) {
+    .english-title {
+        font-size: 2rem;
+    }
+
+    .japanese-title {
+        font-size: 1.5rem;
     }
 }
