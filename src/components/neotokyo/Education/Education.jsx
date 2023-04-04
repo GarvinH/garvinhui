@@ -6,12 +6,13 @@ import TimedEvent from "components/regular/TimedEvent/TimedEvent"
 class Education extends React.Component {
     render() {
         const { reference } = this.props;
-        
+
         return <Section
             reference={reference}
             id="educations"
             sectionHeader={educations.header}
-            extraContent={[educations.certificates.educations.map(education => <TimedEvent
+            extraContent={[educations.certificates.educations.map((education, ix) => <TimedEvent
+                key={ix}
                 className="neotokyo-timed-event-extra"
                 institution={education.institution}
                 notes={education.notes}
@@ -21,8 +22,9 @@ class Education extends React.Component {
             />)]}
             extraContentHeader={[`${educations.certificates.title.en}・${educations.certificates.title.jp}`]}
         >
-            {educations.academia.educations.map(education =>
+            {educations.academia.educations.map((education, ix) =>
                 <TimedEvent
+                    key={ix}
                     className="neotokyo-timed-event"
                     institution={education.institution}
                     notes={education.notes}

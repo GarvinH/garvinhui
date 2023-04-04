@@ -1,6 +1,7 @@
 import NavBar from "components/regular/NavBar/NavBar";
 import React, { Fragment } from "react";
-import { Jumbotron, Container } from "react-bootstrap";
+import { Jumbotron, Container, Nav } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 import interests from "text/Interests.json";
 
 const Interests = () => (
@@ -35,6 +36,9 @@ const Interests = () => (
         </div>
       </Container>
     </Jumbotron>
+    <footer>
+      <Nav.Link as={NavLink} to="/">New Site・新しいサイト</Nav.Link>
+    </footer>
   </div>
 );
 

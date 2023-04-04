@@ -1,11 +1,12 @@
 import React, { Fragment } from "react";
-import { Jumbotron, Row, Accordion, Card } from "react-bootstrap";
+import { Jumbotron, Row, Accordion, Card, Nav } from "react-bootstrap";
 
 import Project from "./Project/Project";
 import { CustomToggle } from "components/regular/AccordionToggle/CustomToggle";
 
 import projects from "text/Portfolio.json";
 import NavBar from "components/regular/NavBar/NavBar";
+import { NavLink } from "react-router-dom";
 
 const RenderProject = (project_category) => (
   <Fragment>
@@ -17,8 +18,9 @@ const RenderProject = (project_category) => (
       <div style={{ marginTop: "5rem" }} />
     )}
     <Row style={{ width: "100%", margin: 0, marginBottom: "5rem" }}>
-      {project_category.projects.map((project) => (
+      {project_category.projects.map((project, ix) => (
         <Project
+          key={ix}
           img={require(`../../../${project.img}`)}
           imgStyle={project.imgStyle}
           title={project.title}
@@ -34,8 +36,8 @@ const Portfolio = () => (
     <NavBar />
     <Jumbotron>
       <RenderProject {...projects.mandatory} />
-      {projects.optional.map(project_category =>
-        <Accordion>
+      {projects.optional.map((project_category, ix) =>
+        <Accordion key={ix}>
           <Card>
             <Card.Header>
               <CustomToggle eventKey="0">
@@ -50,6 +52,9 @@ const Portfolio = () => (
       )
       }
     </Jumbotron>
+    <footer>
+      <Nav.Link as={NavLink} to="/">New Site・新しいサイト</Nav.Link>
+    </footer>
   </div>
 );
 

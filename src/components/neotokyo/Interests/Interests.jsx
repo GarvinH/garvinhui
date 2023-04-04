@@ -11,11 +11,11 @@ class Interests extends React.Component {
             id="interests"
             sectionHeader={interests.header}>
             {interests.interests.map((section, ix) => (
-                <div>
+                <div key={ix}>
                     <p>{section.header}</p>
                     <ul>
-                        {section.points.map((point) => (
-                            <li dangerouslySetInnerHTML={{ __html: point }} />
+                        {section.points.map((point, ix) => (
+                            <li key={ix} dangerouslySetInnerHTML={{ __html: point }} />
                         ))}
                     </ul>
                 </div>

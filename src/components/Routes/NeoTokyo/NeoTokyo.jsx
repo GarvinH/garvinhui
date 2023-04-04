@@ -5,7 +5,8 @@ import Interests from "components/neotokyo/Interests/Interests";
 import NavBar from "components/neotokyo/NavBar/NavBar";
 import Portfolio from "components/neotokyo/Portfolio/Portfolio";
 import React from "react"
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Nav, Row } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 import classes from "./NeoTokyo.module.css"
 
 class NeoTokyo extends React.Component {
@@ -39,6 +40,9 @@ class NeoTokyo extends React.Component {
                             </div>
                         </Col>
                     </Row>
+                    <footer>
+                        <Nav.Link as={NavLink} to="/home">Regular Site・普通サイト</Nav.Link>
+                    </footer>
                 </Container>
             </div>
         </div>

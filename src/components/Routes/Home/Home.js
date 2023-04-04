@@ -1,12 +1,13 @@
 import React from "react";
 import classes from "./Home.module.css";
-import { Jumbotron, Container } from "react-bootstrap";
+import { Jumbotron, Container, Nav } from "react-bootstrap";
 import portrait from "../../../assets/garvinhui.jpg";
 import github from "../../../assets/github-logo.png";
 import linkedin from "../../../assets/linkedin-logo.png";
 import Typed from "typed.js";
 import NavBar from "components/regular/NavBar/NavBar";
 import text from "text/home.json"
+import { NavLink } from "react-router-dom";
 
 class Home extends React.Component {
   componentDidMount() {
@@ -75,6 +76,9 @@ class Home extends React.Component {
             </button>
           </Container>
         </Jumbotron>
+        <footer>
+          <Nav.Link as={NavLink} to="/">New Site・新しいサイト</Nav.Link>
+        </footer>
       </div>
     );
   }

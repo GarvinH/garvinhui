@@ -132,3 +132,8 @@
 .social-button:hover {
   cursor: default;
 }
+
+footer {
+  text-align: center;
+  margin-top: 32px;
+}

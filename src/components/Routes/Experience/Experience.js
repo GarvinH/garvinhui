@@ -3,6 +3,7 @@ import {
   Jumbotron,
   Accordion,
   Card,
+  Nav,
 } from "react-bootstrap";
 import jobs from "text/Experience.json";
 import TimedEvent from "components/regular/TimedEvent/TimedEvent";
@@ -10,13 +11,14 @@ import { CustomToggle } from "components/regular/AccordionToggle/CustomToggle";
 
 import classes from "./Experience.module.css"
 import NavBar from "components/regular/NavBar/NavBar";
+import { NavLink } from "react-router-dom";
 
 const Experience = () => (
   <div className="regular">
     <NavBar />
     <Jumbotron>
       <h1 style={{ margin: "2rem 0 5rem" }} className="heading">
-        {jobs.header.en} 
+        {jobs.header.en}
       </h1>
       {jobs.required.map((job) => (
         <TimedEvent
@@ -49,6 +51,9 @@ const Experience = () => (
         </Card>
       </Accordion>
     </Jumbotron>
+    <footer>
+      <Nav.Link as={NavLink} to="/">New Site・新しいサイト</Nav.Link>
+    </footer>
   </div>
 );
 

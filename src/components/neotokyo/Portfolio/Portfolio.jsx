@@ -10,9 +10,9 @@ const Project = ({ title, content, classNames }) => <div>
         {content.desc && <p>{content.desc}</p>}
     </div>
     <div className={classes.links}>
-        {content.links.map((link, ix) => <span>
+        {content.links.map((link, ix) => <span key={ix}>
             {ix > 0 && "・"}
-            <a key={ix} href={link.href}>{link.text}</a>
+            <a href={link.href}>{link.text}</a>
         </span>)}
     </div>
 </div>
@@ -25,9 +25,9 @@ class Portfolio extends React.Component {
             reference={reference}
             id="portfolio"
             sectionHeader={portfolio.header}
-            extraContent={portfolio.optional.map((project_category) => project_category.projects.map((project) => <Project classNames={classes.header} {...project} />))}
+            extraContent={portfolio.optional.map((project_category) => project_category.projects.map((project, ix) => <Project key={ix} classNames={classes.header} {...project} />))}
             extraContentHeader={portfolio.optional.map((project_category) => `${project_category.heading.en}・${project_category.heading.jp}`)}>
-            {portfolio.mandatory.projects.map((project) => <Project {...project} />)}
+            {portfolio.mandatory.projects.map((project, ix) => <Project key={ix} {...project} />)}
         </Section>
     }
 }
