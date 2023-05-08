@@ -7,7 +7,7 @@ const TimedEvent = ({ institution, title, notes, descs, duration, className }) =
       {institution}
     </h2>
     <Row>
-      <Col md={9} align="left">
+      <Col lg={9} align="left">
         <h2>{title}</h2>
         {notes && <p dangerouslySetInnerHTML={{__html: notes}}></p>}
         {descs &&
@@ -22,7 +22,7 @@ const TimedEvent = ({ institution, title, notes, descs, duration, className }) =
             </Fragment>
           ))}
       </Col>
-      <Col md={3} align="left">
+      <Col lg={3} align="left">
         <p>{duration}</p>
       </Col>
     </Row>
