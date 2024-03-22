@@ -2,8 +2,32 @@
   "required": [
     {
       "institution": "ATPCO",
+      "title": "Software Developer",
+      "duration": "Feb 2024 — Present",
+      "notes": "<strong>Java</strong>, <strong>Spring</strong>, <strong>SQL</strong>, <strong>RocksDB</strong>",
+      "descs": [
+        {
+          "title": "Achievements:",
+          "points": [
+            "Rewrote existing implementations, improving performance over 5x, reducing hosting costs, and improving testability." 
+          ]
+        }
+      ]
+    },
+    {
+      "institution": "ATPCO",
       "title": "Software Engineering Intern",
-      "duration": "May 2023 — Present"
+      "duration": "May 2023 — Dec 2023",
+      "notes": "<strong>Java</strong>, <strong>Spring</strong>, <strong>TypeScript</strong>, <strong>Angular</strong>, <strong>SQL</strong>, <strong>Python</strong>, <strong>RocksDB</strong>",
+      "descs": [
+        {
+          "title": "Achievements:",
+          "points": [
+            "Rebuilt monitoring dashboard (formerly AngularJS) using modern Angular for maintainability and extensibility",
+            "Extended Java Spring codebase to support tracking of additional data across different microservices for the monitor dashboard."
+          ]
+        }
+      ]
     },
     {
       "institution": "TD Bank",
