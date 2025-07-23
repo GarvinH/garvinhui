@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c13e07f4.css",
+    "main.js": "/static/js/main.a94e7bde.js",
+    "static/js/787.bd7811cd.chunk.js": "/static/js/787.bd7811cd.chunk.js",
+    "static/media/garvinhui.jpg": "/static/media/garvinhui.f797907005b6bdcd42e9.jpg",
+    "static/media/spacestagram.png": "/static/media/spacestagram.7d7c8bf91fdcc8fe26fe.png",
+    "static/media/garvinhui-website.png": "/static/media/garvinhui-website.6e1cf1aca70200db6d9e.png",
+    "static/media/easyjapanese.png": "/static/media/easyjapanese.9902ffdbbae8b8a1d8cd.png",
+    "static/media/novigrad.png": "/static/media/novigrad.fe6a1cca21053f582464.png",
+    "static/media/inventory_tracker.png": "/static/media/inventory_tracker.98694a6eedb075e444e0.png",
+    "static/media/forecast-io.png": "/static/media/forecast-io.16b07629fcfd2ff818db.png",
+    "static/media/eAnnotate.png": "/static/media/eAnnotate.6cffbd895f25e81f7cec.png",
+    "static/media/memo-io.png": "/static/media/memo-io.bedf8d32c9c7d91d8fff.png",
+    "static/media/Connect4.png": "/static/media/Connect4.56c23421b1d8daa3ad33.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88.svg",
+    "static/media/github-mark-white.svg": "/static/media/github-mark-white.831c4d3910a9da87a196.svg",
+    "index.html": "/index.html",
+    "main.c13e07f4.css.map": "/static/css/main.c13e07f4.css.map",
+    "main.a94e7bde.js.map": "/static/js/main.a94e7bde.js.map",
+    "787.bd7811cd.chunk.js.map": "/static/js/787.bd7811cd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c13e07f4.css",
+    "static/js/main.a94e7bde.js"
+  ]
+}
