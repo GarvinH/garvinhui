@@ -1,0 +1,131 @@
+{
+  "required": [
+    {
+      "institution": "ATPCO",
+      "title": "Software Developer",
+      "duration": "Feb 2024 — Present",
+      "notes": "<strong>Java</strong>, <strong>Spring</strong>, <strong>SQL</strong>, <strong>RocksDB</strong>",
+      "descs": [
+        {
+          "title": "Achievements:",
+          "points": [
+            "Rewrote existing implementations, improving performance over 5x, reducing hosting costs, and improving testability." 
+          ]
+        }
+      ]
+    },
+    {
+      "institution": "ATPCO",
+      "title": "Software Engineering Intern",
+      "duration": "May 2023 — Dec 2023",
+      "notes": "<strong>Java</strong>, <strong>Spring</strong>, <strong>TypeScript</strong>, <strong>Angular</strong>, <strong>SQL</strong>, <strong>Python</strong>, <strong>RocksDB</strong>",
+      "descs": [
+        {
+          "title": "Achievements:",
+          "points": [
+            "Rebuilt monitoring dashboard (formerly AngularJS) using modern Angular for maintainability and extensibility",
+            "Extended Java Spring codebase to support tracking of additional data across different microservices for the monitor dashboard."
+          ]
+        }
+      ]
+    },
+    {
+      "institution": "TD Bank",
+      "title": "Software Engineering Co-op",
+      "notes": "<strong>Java</strong>, <strong>Spring</strong> (batch), <strong>SQL</strong>, <strong>Shell / PowerShell</strong>, <strong>Jira</strong>, <strong>Confluence</strong>, <strong>BitBucket</strong>",
+      "descs": [
+        {
+          "title": "Achievements:",
+          "points": [
+            "Developed and created PoC for ETL process used to migrate over 2 million records daily",
+            "Created scripts to automate integration with third-party software and simplyify manual tasks",
+            "Maintained and refactored code to implement software design patterns (such as Singleton)"
+          ]
+        }
+      ],
+      "duration": "May 2022 — Aug 2022"
+    },
+    {
+      "institution": "JSI Telecom",
+      "title": "Software Developer (Co-op)",
+      "notes": "<strong>C#</strong>, <strong>.Net</strong>, <strong>Angular</strong>, <strong>TypeScript</strong>, <strong>Python</strong>, <strong>SQL</strong>, <strong>TFS / Azure DevOps (SCM and Tracking)</strong>, <strong>Confluence</strong>",
+      "descs": [
+        {
+          "title": "Achievements:",
+          "points": [
+            "Implemented an API to allow for customer customizability",
+            "Assisted with R&D of an in-house search engine with performance of sub-10ms on over 1 million records",
+            "Supported and maintained existing systems across the codebase"
+          ]
+        }
+      ],
+      "duration": "Sept 2021 — Dec 2021"
+    },
+    {
+      "institution": "Treasury Board of Canada Secretariat",
+      "title": "Web Developer (Co-op)",
+      "notes": "<strong>Django</strong>, <strong>Python</strong>, <strong>Pytest</strong>, <strong>GraphQL</strong>, <strong>ReactJS</strong>, <strong>JavaScript</strong>, <strong>TypeScript</strong>, <strong>CircleCI</strong>, <strong>GitHub</strong>, <strong>Bash</strong>, <strong>HTML</strong>, <strong>(S)CSS</strong>, <strong>JSON</strong>, <strong>YAML</strong>",
+      "descs": [
+        {
+          "title": "Achievements:",
+          "points": [
+            "Improved the maintainability and the UX of a website section that receives over 10,000 uses a year",
+            "Sped up the loading on a sub-application by approximately five-fold",
+            "Optimized SQL-based queries on average by 15-fold"
+          ]
+        }
+      ],
+      "duration": "Jan 2021 — Apr 2021"
+    },
+    {
+      "institution": "Treasury Board of Canada Secretariat",
+      "title": "Web Developer (Part-time)",
+      "notes": "<strong>ReactJS</strong>, <strong>JavaScript</strong>, <strong>GitHub</strong>, <strong>Bash</strong>, <strong>HTML</strong>, <strong>(S)CSS</strong>, <strong>JSON</strong>, <strong>YAML</strong>",
+      "descs": [
+        {
+          "title": "Achievements:",
+          "points": [
+            "Unblocked technological upgrade path by decoupling a major component"
+          ]
+        }
+      ],
+      "duration": "Sept 2020 — Dec 2020"
+    },
+    {
+      "institution": "Treasury Board of Canada Secretariat",
+      "title": "Web Developer (Co-op)",
+      "notes": "<strong>ReactJS</strong>, <strong>JavaScript</strong>, <strong>Asynchronous Programming</strong>, <strong>NodeJS</strong>, <strong>Redux</strong>, <strong>Jest</strong>, <strong>MongoDB</strong>, <strong>Mongoose</strong>, <strong>GitHub</strong>, <strong>Bash</strong>, <strong>HTML</strong>, <strong>(S)CSS</strong>, <strong>JSON</strong>, <strong>YAML</strong>",
+      "descs": [
+        {
+          "title": "Achievements:",
+          "points": [
+            "Developed a formatting strategy for extracting and converting database data to CSV",
+            "Improved UX of website by using google analytics",
+            "Optimized resource usage when providing live updates"
+          ]
+        }
+      ],
+      "duration": "July 2020 — Aug 2020"
+    }
+  ],
+  "optional": [
+    {
+      "institution": "Axiom Group Inc.",
+      "title": "Assembly Line Worker",
+      "duration": "June 2019 — August 2019"
+    },
+    {
+      "institution": "Wendy's",
+      "title": "Customer Service Rep.",
+      "duration": "December 2017 — July 2019"
+    }
+  ],
+  "header": {
+    "en": "Experience",
+    "jp": "職歴"
+  },
+  "non-technical": {
+    "en": "Non-Technical Experience",
+    "jp": "他の職歴"
+  }
+}

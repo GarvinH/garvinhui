@@ -1,0 +1,18 @@
+.home > h1,
+.home > h2,
+.home > h3,
+.home > h4,
+.home > h5,
+.home > h6 {
+  margin: 2rem 0;
+}
+
+.social {
+  border: none;
+  background: none;
+  margin: 0 1rem;
+}
+
+.social img {
+  width: 3rem;
+}

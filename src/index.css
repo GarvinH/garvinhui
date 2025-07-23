@@ -1,0 +1,40 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.jumbotron {
+  height: 100%;
+  margin: 0;
+}
+
+.heading {
+  font-size: 3.5rem
+}
+
+mark {
+  background-color: #faed27 !important;
+}
+
+@media (max-width: 1017px) {
+  .card {
+    margin-bottom: 3rem;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+}

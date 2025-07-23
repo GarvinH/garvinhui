@@ -1,0 +1,139 @@
+:root {
+  --background-color: #1e002b;
+  --neon-blue: rgb(0, 195, 255);
+  --neon-blue-shadow: 0px 0px 30px var(--neon-blue);
+  --neon-blue-shadow-small: 0px 0px 15px var(--neon-blue);
+  --neon-blue-off: rgb(1, 64, 83);
+  --neon-pink: #ff5cf4;
+  --neon-pink-shadow: 0px 0px 30px var(--neon-pink);
+  --neon-pink-shadow-small: 0px 0px 15px var(--neon-pink);
+  --neon-white: #ffffff;
+  --neon-white-shadow: 0px 0px 30px var(--neon-white);
+  --neon-white-shadow-small: 0px 0px 15px var(--neon-white);
+  --neon-white-shadow-nav: 0px 0px 5px var(--neon-white);
+  --neon-red: #ff073a;
+  --neon-red-shadow: 0px 0px 30px var(--neon-red);
+  --neon-red-shadow-small: 0px 0px 15px var(--neon-red);
+  --neon-purple: #c32aff;
+  --neon-purple-shadow: 0px 0px 30px var(--neon-purple);
+  --neon-purple-shadow-small: 0px 0px 15px var(--neon-purple);
+  --neon-black: #000000;
+  --neon-socials: var(--neon-white);
+  --neon-socials-shadow: var(--neon-white-shadow-small);
+  --shadow-off: none;
+  --marquee-purple: #b638ff;
+}
+
+.blue-sign {
+  color: var(--neon-blue) !important;
+  text-shadow: var(--neon-blue-shadow) !important;
+  box-shadow: var(--neon-blue-shadow-small), inset var(--neon-blue-shadow-small) !important;
+  border: 5px var(--neon-blue) solid !important;
+  border-radius: 5px !important;
+}
+
+.pink-sign {
+  color: var(--neon-pink) !important;
+  text-shadow: var(--neon-pink-shadow) !important;
+  box-shadow: var(--neon-pink-shadow-small), inset var(--neon-pink-shadow-small) !important;
+  border: 5px var(--neon-pink) solid !important;
+  border-radius: 5px !important;
+}
+
+.red-sign {
+  color: var(--neon-red) !important;
+  text-shadow: var(--neon-red-shadow) !important;
+  box-shadow: var(--neon-red-shadow-small), inset var(--neon-red-shadow-small) !important;
+  border: 5px var(--neon-red) solid !important;
+  border-radius: 5px !important;
+}
+
+.purple-sign {
+  color: var(--neon-purple) !important;
+  text-shadow: var(--neon-purple-shadow) !important;
+  box-shadow: var(--neon-purple-shadow-small), inset var(--neon-purple-shadow-small) !important;
+  border: 5px var(--neon-purple) solid !important;
+  border-radius: 5px !important;
+}
+
+.neotokyo a {
+  color: var(--neon-white) !important;
+  text-shadow: var(--neon-white-shadow-small) !important;
+}
+
+.neotokyo a:hover {
+  text-shadow: var(--neon-blue-shadow-small) !important;
+}
+
+.neotokyo-timed-event,
+.neotokyo-timed-event-extra {
+  margin-bottom: 0 !important;
+}
+
+@media (max-width: 575.98px) {
+  .neotokyo-timed-event h2 {
+    font-size: 2rem !important;
+  }
+
+  .neotokyo-timed-event-extra h2 {
+    font-size: 1.15rem !important;
+  }
+}
+
+@media (max-width: 359.98px) {
+  .neotokyo-timed-event h2 {
+    font-size: 1.75rem !important;
+  }
+}
+
+.regular {
+  text-align: center;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .regular {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 992px) {
+  .regular {
+    max-width: 992px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .regular {
+    max-width: 1200px;
+  }
+}
+
+.jumbotron {
+  background-color: white !important;
+}
+
+
+.english {
+  font-family: 'Tilt Neon', cursive;
+}
+
+.japanese {
+  font-family: 'Kosugi Maru', sans-serif;
+}
+
+.social-button {
+  border: none;
+  background: none;
+  margin: 0 1rem;
+  padding: 0;
+}
+
+.social-button:hover {
+  cursor: default;
+}
+
+footer {
+  text-align: center;
+  margin-top: 32px;
+}

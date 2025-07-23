@@ -1,0 +1,33 @@
+.default {
+    background-color: var(--background-color);
+    color: var(--neon-blue);
+    text-shadow: var(--neon-blue-shadow);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.nav-col {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.content-col {
+    padding-top: 128px;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    flex-direction: column;
+}
+
+@media (max-width: 1199.98px) {
+    .nav-col {
+        padding: 0 !important;
+        z-index: 100;
+        height: auto;
+    }
+
+    .content-col {
+        padding-top: 86px;
+    }
+}
